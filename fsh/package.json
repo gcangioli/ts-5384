@@ -1,0 +1,24 @@
+{
+ "name": "IsoTs5384",
+ "version" : "0.0.1",  
+ "canonical" : "http://iso.org/fhir/ts-5384",
+ "url" : "http://iso.org/fhir/ts-5384",
+ "title" : "ISO TS 5384 Immunization FHIR Logical Models",
+ "description": "ISO TS 5384 Immunization FHIR Logical Models",
+ "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1"
+ },
+ "keywords": [
+   "ISO",
+   "Vaccination"
+ ],
+ "language": "en",
+ "author": "Giorgio Cangioli",
+ "maintainers": [
+   {
+     "name": "Giorgio Cangioli",
+     "email": "giorgio.cangioli@gmail.com"
+   }
+ ],
+ "license": "CC0-1.0"
+}
