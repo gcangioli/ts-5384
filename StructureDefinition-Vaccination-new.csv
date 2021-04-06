@@ -1,0 +1,79 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"Vaccination-new","","","",1,1,"","","","","Vaccination","Vaccination","","","","","","","","","",,,,,"",,,,"Element",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a"
+"Vaccination-new.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"Vaccination-new.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Vaccination-new.recordedDate","","","",0,1,"","","","dateTime {[]} {[]}
+","Recorded Date","When the immunization was first captured in the subject's record","","","","","","","","","",,,,,"",,,,"Vaccination-new.recordedDate",0,1,"",""
+"Vaccination-new.source","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Immunization Reporting Source","Source of information regarding the reported immunization event.","","","","","","","","","",,,,,"",,,,"Vaccination-new.source",0,*,"",""
+"Vaccination-new.given","","","",0,*,"","","","boolean {[]} {[]}
+","Immunization Administration Status","Provides the status of the immunization event, i.e., was the vaccine dose administered?","","","","","","","","","",,,,,"",,,,"Vaccination-new.given",0,*,"",""
+"Vaccination-new.reasonNotGiven","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Reason not done","Indicates the reason the immunization event was not performed.","","","","","","","","","",,,,,"",,,,"Vaccination-new.reasonNotGiven",0,*,"",""
+"Vaccination-new.indication","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Why immunization occurred","Indicates the reason the immunization event was performed.","","","","","","","","","",,,,,"",,,,"Vaccination-new.indication",0,*,"",""
+"Vaccination-new.targetDisease","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Vaccine Preventable Disease","The disease that the vaccination provides protection against.","","","","","","","","","",,,,,"",,,,"Vaccination-new.targetDisease",0,*,"",""
+"Vaccination-new.vaccineType","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Vaccine type (prophylaxis, generic immunizing Agent)","Generic representation of the formulation administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s). E.g. Generic description of the vaccine/Vaccine component(s) Example: J07BX03 covid-19 vaccines (temporary code, to be implemented in ATC 2022) 1119349007 | COVID-19 mRNA vaccine | 1119305005 | COVID-19 antigen vaccine |","","","","","","","","","",,,,,"",,,,"Vaccination-new.vaccineType",0,*,"",""
+"Vaccination-new.subject","","","",0,1,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/Subject {[]} {[]}
+","Subject","Person that have or should have been vaccinated","","","","","","","","","",,,,,"",,,,"Vaccination-new.subject",0,1,"",""
+"Vaccination-new.product","","","",0,*,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/Product {[]} {[]}
+","Administrable Product","A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  ","","","","","","","","","",,,,,"",,,,"Vaccination-new.product",0,*,"",""
+"Vaccination-new.administration","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Immunization Administration","Immunization Administration","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration",0,1,"",""
+"Vaccination-new.administration.date","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Date of Immunization Administration","The date the immunization was administered to the person. ","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.date",0,1,"",""
+"Vaccination-new.administration.date.value","","","",0,1,"","","","dateTime {[]} {[]}
+","Date of Immunization Administration","The date the immunization was administered to the person. ","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.date.value",0,1,"",""
+"Vaccination-new.administration.date.estimated","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Estimated Date Flag","A flag to indicate the recorded date of the immunization was estimated.   ","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.date.estimated",0,1,"",""
+"Vaccination-new.administration.dosage","","","",0,*,"","","","Quantity {[]} {[]}
+","Quantity administered","Quantity of the dose administered; (e.g., influenza dose is 0.25 or 0.5).  ","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.dosage",0,*,"",""
+"Vaccination-new.administration.routeOfAdministration","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Immunization Route of Administration","Route by which the immunizing agent is administered to the body (intramuscular injection, subcutaneous injection, oral, etc.).","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.routeOfAdministration",0,1,"",""
+"Vaccination-new.administration.site","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Immunization Anatomical Site","The set of body locations to or through which an immunizing agent may be administered.","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.site",0,1,"",""
+"Vaccination-new.administration.performer","","","",0,1,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional {[]} {[]}
+","Health Professional administering the vaccine","Health Professional responsible for administering the vaccine or prophylaxis","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.performer",0,1,"",""
+"Vaccination-new.administration.administrationCenter","","","",0,1,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization {[]} {[]}
+","Responsible Administration Center","Administering centre or a health authority responsible for the vaccination event","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.administrationCenter",0,1,"",""
+"Vaccination-new.administration.location","","","",0,1,"","","","Location {[]} {[]}
+","Location","Where the vaccine has or should have been administrated","","","","","","","","","",,,,,"",,,,"Vaccination-new.administration.location",0,1,"",""
+"Vaccination-new.protocol","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Protocol applied","The protocol (set of recommendations) being followed by the provider who administered the dose.","","","","","","","","","",,,,,"",,,,"Vaccination-new.protocol",0,1,"",""
+"Vaccination-new.protocol.doseNumber","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Dose Number","Dose Number","","","","","","","","","",,,,,"",,,,"Vaccination-new.protocol.doseNumber",0,1,"",""
+"Vaccination-new.protocol.seriesDoseNumber","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Series Dose Number","Series Dose Number","","","","","","","","","",,,,,"",,,,"Vaccination-new.protocol.seriesDoseNumber",0,1,"",""
+"Vaccination-new.protocol.seriesComplete","","","",0,1,"","","","boolean {[]} {[]}
+","Vaccination series complete","Vaccination series complete","","","","","","","","","",,,,,"",,,,"Vaccination-new.protocol.seriesComplete",0,1,"",""
+"Vaccination-new.reaction","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Adverse Reaction","Adverse Reaction","","","","","","","","","",,,,,"",,,,"Vaccination-new.reaction",0,*,"",""
+"Vaccination-new.reaction.reported","","","",0,1,"","","","boolean {[]} {[]}
+","Adverse Reaction Following Immunization Reported","A flag to identify an adverse reaction was reported following administration of a vaccine.","","","","","","","","","",,,,,"",,,,"Vaccination-new.reaction.reported",0,1,"",""
+"Vaccination-new.reaction.date","","","",0,1,"","","","dateTime {[]} {[]}
+","Reaction date","Reaction date","","","","","","","","","",,,,,"",,,,"Vaccination-new.reaction.date",0,1,"",""
+"Vaccination-new.reaction.detail","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Reaction detail","Reaction detail","","","","","","","","","",,,,,"",,,,"Vaccination-new.reaction.detail",0,1,"",""
+"Vaccination-new.reaction.note","","","",0,1,"","","","markdown {[]} {[]}
+","Immunization Notes","Additional information relevant to the immunization record.","","","","","","","","","",,,,,"",,,,"Vaccination-new.reaction.note",0,1,"",""
+"Vaccination-new.forecast","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Subject's immunization forecast","Subject's immunization forecast","","","","","","","","","",,,,,"",,,,"Vaccination-new.forecast",0,1,"",""
+"Vaccination-new.forecast.creationDate","","","",0,1,"","","","dateTime {[]} {[]}
+","Immunization Forecast Status Generated Date","The date the subject's immunization forecast was generated ","","","","","","","","","",,,,,"",,,,"Vaccination-new.forecast.creationDate",0,1,"",""
+"Vaccination-new.forecast.date","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Immunization Forecast Date","The date provided in the subject's immunization forecast.","","","","","","","","","",,,,,"",,,,"Vaccination-new.forecast.date",0,*,"",""
+"Vaccination-new.forecast.date.type","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Immunization Forecast Date Type","Type of immunization forecast date;  based on the immunization forecast types.","","","","","","","","","",,,,,"",,,,"Vaccination-new.forecast.date.type",0,1,"",""
+"Vaccination-new.forecast.date.value","","","",0,1,"","","","dateTime {[]} {[]}
+","Immunization Forecast Date","The date provided in the subject's immunization forecast.","","","","","","","","","",,,,,"",,,,"Vaccination-new.forecast.date.value",0,1,"",""
+"Vaccination-new.forecast.status","","","",0,1,"","","","BackboneElement {[]} {[]}
+","Immunization Forecast Status","Represents the subject's requirement for a particular Administrable Immunizing Agent.","","","","","","","","","",,,,,"",,,,"Vaccination-new.forecast.status",0,1,"",""

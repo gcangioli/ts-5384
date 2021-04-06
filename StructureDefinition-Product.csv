@@ -1,0 +1,47 @@
+"Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping"
+"Product","","","",1,1,"","","","","Product","A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  ","","","","","","","","","",,,,,"",,,,"Element",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","n/a"
+"Product.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
+"Product.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Product.codeSet","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Product code set","Codes that describe this product at different levels (e.g. package, medicinal product, pharmaceutical product, product cluster)","","","","","","","","","",,,,,"",,,,"Product.codeSet",0,*,"",""
+"Product.codeSet.productCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Product code","Set of codes identifying a Virtual or an Authorized Packaged Medicinal Product (PC), Medicinal Product (MP) , Pharmaceutical Product (PhP) or other product codes.","","","","","","","","","",,,,,"",,,,"Product.codeSet.productCode",0,*,"",""
+"Product.codeSet.PCID","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","IDMP PCID","Code identifying the IDMP Packaged Medicinal Product","","","","","","","","","",,,,,"",,,,"Product.codeSet.PCID",0,1,"",""
+"Product.codeSet.MPID","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","IDMP MPID","Code identifying the IDMP Medicinal Product","","","","","","","","","",,,,,"",,,,"Product.codeSet.MPID",0,1,"",""
+"Product.codeSet.PhPID","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","IDMP PhP","Code identifying the IDMP Pharmaceutical Product","","","","","","","","","",,,,,"",,,,"Product.codeSet.PhPID",0,*,"",""
+"Product.identifier","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Set of identifiers","Identifiers typically related to the supply chain management, but often used also for other purposes as the fight against falsified and counterfeit medicines; adverse event reporting, and so on.","","","","","","","","","",,,,,"",,,,"Product.identifier",0,*,"",""
+"Product.identifier.dataCarrierIdentifier","","","",0,*,"","","","Identifier {[]} {[]}
+","Data Carrier Identifier","Set of identifiers associated to this instance of the product. It could be a global (e.g. GTIN) or a national identifier. The identifiers may refer to different package levels : secondary packaging, packaged product, immediate container.","","","","","","","","","",,,,,"",,,,"Product.identifier.dataCarrierIdentifier",0,*,"",""
+"Product.identifier.lotNumber","","","",0,1,"","","","string {[]} {[]}
+","Lot/Batch Number","The lot number of the Administrable Immunizing Agent, as assigned by the manufacturer.","","","","","","","","","",,,,,"",,,,"Product.identifier.lotNumber",0,1,"",""
+"Product.name","","","",0,*,"","","","string {[]} {[]}
+","Product Name","Product Name","","","","","","","","","",,,,,"",,,,"Product.name",0,*,"",""
+"Product.composition","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Composition","Composition of this product","","","","","","","","","",,,,,"",,,,"Product.composition",0,*,"",""
+"Product.composition.ingredient","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Ingredient","Information about the igredients composing this product","","","","","","","","","",,,,,"",,,,"Product.composition.ingredient",0,*,"",""
+"Product.composition.ingredient.substanceName","","","",0,1,"","","","string {[]} {[]}
+","Substance name","Name of the substance / specified substance","","","","","","","","","",,,,,"",,,,"Product.composition.ingredient.substanceName",0,1,"",""
+"Product.composition.ingredient.substanceCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Substance code","Code identifying this substance / specified substance. When active it is the substance that triggers an immune response to a specific disease with a role of an antigen. Derivable from vaccine product.","","","","","","","","","",,,,,"",,,,"Product.composition.ingredient.substanceCode",0,*,"",""
+"Product.composition.ingredient.ingredientRole","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Ingredient role","Role of this ingredient","","","","","","","","","",,,,,"",,,,"Product.composition.ingredient.ingredientRole",0,1,"",""
+"Product.composition.ingredient.substanceQuantity","","","",0,1,"","","","Ratio {[]} {[]}
+","Substance quantity","Quantity of this substance / specified substance. It can be per unit of presentation or per concentration.","","","","","","","","","",,,,,"",,,,"Product.composition.ingredient.substanceQuantity",0,1,"",""
+"Product.composition.description","","","",0,1,"","","","string {[]} {[]}
+","Textual Composition","Textual description of the product composition","","","","","","","","","",,,,,"",,,,"Product.composition.description",0,1,"",""
+"Product.marketAuthorizationHolder","","","",0,*,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization {[]} {[]}
+","Market Authorization Holder (MAH)","the organisation that holds the authorisation for marketing a Medicinal Product in a region","","","","","","","","","",,,,,"",,,,"Product.marketAuthorizationHolder",0,*,"",""
+"Product.manufacturer","","","",0,*,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization {[]} {[]}
+","manufacturer","Organisation that holds the authorisation for the manufacturing process","","","","","","","","","",,,,,"",,,,"Product.manufacturer",0,*,"",""

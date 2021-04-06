@@ -1,0 +1,51 @@
+[
+  {
+    "id": "iso.fhir.5384",
+    "type": "ImplementationGuide",
+    "url": "http://iso.org/fhir/ts-5384/ImplementationGuide/iso.fhir.5384",
+    "version": "0.0.1",
+    "name": "IsoTs5384"
+  },
+  {
+    "id": "HealthProfessional",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional",
+    "version": "0.0.1",
+    "name": "HealthProfessional"
+  },
+  {
+    "id": "Product",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Product",
+    "version": "0.0.1",
+    "name": "Product"
+  },
+  {
+    "id": "SimpleOrganization",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization",
+    "version": "0.0.1",
+    "name": "SimpleOrganization"
+  },
+  {
+    "id": "Subject",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Subject",
+    "version": "0.0.1",
+    "name": "Subject"
+  },
+  {
+    "id": "Vaccination",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Vaccination",
+    "version": "0.0.1",
+    "name": "Vaccination"
+  },
+  {
+    "id": "Vaccination-new",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Vaccination-new",
+    "version": "0.0.1",
+    "name": "Vaccination-new"
+  }
+]
