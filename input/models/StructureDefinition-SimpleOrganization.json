@@ -1,0 +1,55 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "SimpleOrganization",
+  "publisher": "ISO/TC 521 WG3",
+  "status": "draft",
+  "url": "http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization",
+  "name": "SimpleOrganization",
+  "title": "Simple Organization",
+  "experimental": true,
+  "description": "Simple Organization",
+  "version": "0.0.1",
+  "kind": "logical",
+  "abstract": false,
+  "type": "SimpleOrganization",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "SimpleOrganization",
+        "path": "SimpleOrganization",
+        "short": "Organization",
+        "definition": "Organization",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "SimpleOrganization.identifier",
+        "path": "SimpleOrganization.identifier",
+        "short": "ID",
+        "definition": "ID",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "SimpleOrganization.name",
+        "path": "SimpleOrganization.name",
+        "short": "Name",
+        "definition": "Name used for the organization",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Product",
+  "publisher": "ISO/TC 521 WG3",
+  "status": "draft",
+  "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Product",
+  "name": "Product",
+  "title": "Product",
+  "experimental": true,
+  "description": "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  ",
+  "version": "0.0.1",
+  "kind": "logical",
+  "abstract": false,
+  "type": "Product",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Product",
+        "path": "Product",
+        "short": "Product",
+        "definition": "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  ",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Product.codeSet",
+        "path": "Product.codeSet",
+        "short": "Product code set",
+        "definition": "Codes that describe this product at different levels (e.g. package, medicinal product, pharmaceutical product, product cluster)",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Product.codeSet.productCode",
+        "path": "Product.codeSet.productCode",
+        "short": "Product code",
+        "definition": "Set of codes identifying a Virtual or an Authorized Packaged Medicinal Product (PC), Medicinal Product (MP) , Pharmaceutical Product (PhP) or other product codes.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Product.codeSet.PCID",
+        "path": "Product.codeSet.PCID",
+        "short": "IDMP PCID",
+        "definition": "Code identifying the IDMP Packaged Medicinal Product",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Product.codeSet.MPID",
+        "path": "Product.codeSet.MPID",
+        "short": "IDMP MPID",
+        "definition": "Code identifying the IDMP Medicinal Product",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Product.codeSet.PhPID",
+        "path": "Product.codeSet.PhPID",
+        "short": "IDMP PhP",
+        "definition": "Code identifying the IDMP Pharmaceutical Product",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Product.identifier",
+        "path": "Product.identifier",
+        "short": "Set of identifiers",
+        "definition": "Identifiers typically related to the supply chain management, but often used also for other purposes as the fight against falsified and counterfeit medicines; adverse event reporting, and so on.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Product.identifier.dataCarrierIdentifier",
+        "path": "Product.identifier.dataCarrierIdentifier",
+        "short": "Data Carrier Identifier",
+        "definition": "Set of identifiers associated to this instance of the product. It could be a global (e.g. GTIN) or a national identifier. The identifiers may refer to different package levels : secondary packaging, packaged product, immediate container.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "id": "Product.identifier.lotNumber",
+        "path": "Product.identifier.lotNumber",
+        "short": "Lot/Batch Number",
+        "definition": "The lot number of the Administrable Immunizing Agent, as assigned by the manufacturer.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Product.name",
+        "path": "Product.name",
+        "short": "Product Name",
+        "definition": "Product Name",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Product.composition",
+        "path": "Product.composition",
+        "short": "Composition",
+        "definition": "Composition of this product",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Product.composition.ingredient",
+        "path": "Product.composition.ingredient",
+        "short": "Ingredient",
+        "definition": "Information about the igredients composing this product",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Product.composition.ingredient.substanceName",
+        "path": "Product.composition.ingredient.substanceName",
+        "short": "Substance name",
+        "definition": "Name of the substance / specified substance",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Product.composition.ingredient.substanceCode",
+        "path": "Product.composition.ingredient.substanceCode",
+        "short": "Substance code",
+        "definition": "Code identifying this substance / specified substance. When active it is the substance that triggers an immune response to a specific disease with a role of an antigen. Derivable from vaccine product.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Product.composition.ingredient.ingredientRole",
+        "path": "Product.composition.ingredient.ingredientRole",
+        "short": "Ingredient role",
+        "definition": "Role of this ingredient",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Product.composition.ingredient.substanceQuantity",
+        "path": "Product.composition.ingredient.substanceQuantity",
+        "short": "Substance quantity",
+        "definition": "Quantity of this substance / specified substance. It can be per unit of presentation or per concentration.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Ratio"
+          }
+        ]
+      },
+      {
+        "id": "Product.composition.description",
+        "path": "Product.composition.description",
+        "short": "Textual Composition",
+        "definition": "Textual description of the product composition",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Product.marketAuthorizationHolder",
+        "path": "Product.marketAuthorizationHolder",
+        "short": "Market Authorization Holder (MAH)",
+        "definition": "the organisation that holds the authorisation for marketing a Medicinal Product in a region",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization"
+          }
+        ]
+      },
+      {
+        "id": "Product.manufacturer",
+        "path": "Product.manufacturer",
+        "short": "manufacturer",
+        "definition": "Organisation that holds the authorisation for the manufacturing process",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization"
+          }
+        ]
+      }
+    ]
+  }
+}

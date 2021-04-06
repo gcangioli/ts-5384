@@ -1,0 +1,471 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Vaccination-new",
+  "publisher": "ISO/TC 521 WG3",
+  "status": "draft",
+  "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Vaccination-new",
+  "name": "Vaccination-new",
+  "title": "ISO TS 5384 data model (new)",
+  "experimental": true,
+  "description": "ISO TS 5384 data model",
+  "version": "0.0.1",
+  "kind": "logical",
+  "abstract": false,
+  "type": "Vaccination-new",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "id": "Vaccination-new",
+        "path": "Vaccination-new",
+        "short": "Vaccination",
+        "definition": "Vaccination",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Vaccination-new.recordedDate",
+        "path": "Vaccination-new.recordedDate",
+        "short": "Recorded Date",
+        "definition": "When the immunization was first captured in the subject's record",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.source",
+        "path": "Vaccination-new.source",
+        "short": "Immunization Reporting Source",
+        "definition": "Source of information regarding the reported immunization event.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.given",
+        "path": "Vaccination-new.given",
+        "short": "Immunization Administration Status",
+        "definition": "Provides the status of the immunization event, i.e., was the vaccine dose administered?",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.reasonNotGiven",
+        "path": "Vaccination-new.reasonNotGiven",
+        "short": "Reason not done",
+        "definition": "Indicates the reason the immunization event was not performed.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.indication",
+        "path": "Vaccination-new.indication",
+        "short": "Why immunization occurred",
+        "definition": "Indicates the reason the immunization event was performed.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.targetDisease",
+        "path": "Vaccination-new.targetDisease",
+        "short": "Vaccine Preventable Disease",
+        "definition": "The disease that the vaccination provides protection against.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.vaccineType",
+        "path": "Vaccination-new.vaccineType",
+        "short": "Vaccine type (prophylaxis, generic immunizing Agent)",
+        "definition": "Generic representation of the formulation administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s). E.g. Generic description of the vaccine/Vaccine component(s) Example: J07BX03 covid-19 vaccines (temporary code, to be implemented in ATC 2022) 1119349007 | COVID-19 mRNA vaccine | 1119305005 | COVID-19 antigen vaccine |",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.subject",
+        "path": "Vaccination-new.subject",
+        "short": "Subject",
+        "definition": "Person that have or should have been vaccinated",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "http://iso.org/fhir/ts-5384/StructureDefinition/Subject"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.product",
+        "path": "Vaccination-new.product",
+        "short": "Administrable Product",
+        "definition": "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  ",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "http://iso.org/fhir/ts-5384/StructureDefinition/Product"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration",
+        "path": "Vaccination-new.administration",
+        "short": "Immunization Administration",
+        "definition": "Immunization Administration",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.date",
+        "path": "Vaccination-new.administration.date",
+        "short": "Date of Immunization Administration",
+        "definition": "The date the immunization was administered to the person. ",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.date.value",
+        "path": "Vaccination-new.administration.date.value",
+        "short": "Date of Immunization Administration",
+        "definition": "The date the immunization was administered to the person. ",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.date.estimated",
+        "path": "Vaccination-new.administration.date.estimated",
+        "short": "Estimated Date Flag",
+        "definition": "A flag to indicate the recorded date of the immunization was estimated.   ",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.dosage",
+        "path": "Vaccination-new.administration.dosage",
+        "short": "Quantity administered",
+        "definition": "Quantity of the dose administered; (e.g., influenza dose is 0.25 or 0.5).  ",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.routeOfAdministration",
+        "path": "Vaccination-new.administration.routeOfAdministration",
+        "short": "Immunization Route of Administration",
+        "definition": "Route by which the immunizing agent is administered to the body (intramuscular injection, subcutaneous injection, oral, etc.).",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.site",
+        "path": "Vaccination-new.administration.site",
+        "short": "Immunization Anatomical Site",
+        "definition": "The set of body locations to or through which an immunizing agent may be administered.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.performer",
+        "path": "Vaccination-new.administration.performer",
+        "short": "Health Professional administering the vaccine",
+        "definition": "Health Professional responsible for administering the vaccine or prophylaxis",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.administrationCenter",
+        "path": "Vaccination-new.administration.administrationCenter",
+        "short": "Responsible Administration Center",
+        "definition": "Administering centre or a health authority responsible for the vaccination event",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.administration.location",
+        "path": "Vaccination-new.administration.location",
+        "short": "Location",
+        "definition": "Where the vaccine has or should have been administrated",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Location"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.protocol",
+        "path": "Vaccination-new.protocol",
+        "short": "Protocol applied",
+        "definition": "The protocol (set of recommendations) being followed by the provider who administered the dose.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.protocol.doseNumber",
+        "path": "Vaccination-new.protocol.doseNumber",
+        "short": "Dose Number",
+        "definition": "Dose Number",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.protocol.seriesDoseNumber",
+        "path": "Vaccination-new.protocol.seriesDoseNumber",
+        "short": "Series Dose Number",
+        "definition": "Series Dose Number",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.protocol.seriesComplete",
+        "path": "Vaccination-new.protocol.seriesComplete",
+        "short": "Vaccination series complete",
+        "definition": "Vaccination series complete",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.reaction",
+        "path": "Vaccination-new.reaction",
+        "short": "Adverse Reaction",
+        "definition": "Adverse Reaction",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.reaction.reported",
+        "path": "Vaccination-new.reaction.reported",
+        "short": "Adverse Reaction Following Immunization Reported",
+        "definition": "A flag to identify an adverse reaction was reported following administration of a vaccine.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.reaction.date",
+        "path": "Vaccination-new.reaction.date",
+        "short": "Reaction date",
+        "definition": "Reaction date",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.reaction.detail",
+        "path": "Vaccination-new.reaction.detail",
+        "short": "Reaction detail",
+        "definition": "Reaction detail",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.reaction.note",
+        "path": "Vaccination-new.reaction.note",
+        "short": "Immunization Notes",
+        "definition": "Additional information relevant to the immunization record.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "markdown"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.forecast",
+        "path": "Vaccination-new.forecast",
+        "short": "Subject's immunization forecast",
+        "definition": "Subject's immunization forecast",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.forecast.creationDate",
+        "path": "Vaccination-new.forecast.creationDate",
+        "short": "Immunization Forecast Status Generated Date",
+        "definition": "The date the subject's immunization forecast was generated ",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.forecast.date",
+        "path": "Vaccination-new.forecast.date",
+        "short": "Immunization Forecast Date",
+        "definition": "The date provided in the subject's immunization forecast.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.forecast.date.type",
+        "path": "Vaccination-new.forecast.date.type",
+        "short": "Immunization Forecast Date Type",
+        "definition": "Type of immunization forecast date;  based on the immunization forecast types.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.forecast.date.value",
+        "path": "Vaccination-new.forecast.date.value",
+        "short": "Immunization Forecast Date",
+        "definition": "The date provided in the subject's immunization forecast.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Vaccination-new.forecast.status",
+        "path": "Vaccination-new.forecast.status",
+        "short": "Immunization Forecast Status",
+        "definition": "Represents the subject's requirement for a particular Administrable Immunizing Agent.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      }
+    ]
+  }
+}
