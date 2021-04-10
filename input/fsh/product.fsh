@@ -1,6 +1,6 @@
 Instance: Product
 InstanceOf: StructureDefinition
-Description: "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  "
+Description: "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."
 Title: "Product"
 Usage: #definition
 
@@ -11,7 +11,7 @@ Usage: #definition
 * title = "Product"
 * status = #draft
 * experimental = true
-* description = "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  "
+* description = "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."
 * version = "0.0.1"
 * kind = #logical
 * abstract = false
@@ -22,7 +22,7 @@ Usage: #definition
 * differential.element[0].id = "Product"
 * differential.element[0].path = "Product"
 * differential.element[0].short = "Product"
-* differential.element[0].definition = "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s).  "
+* differential.element[0].definition = "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
 
@@ -31,7 +31,7 @@ Usage: #definition
 * differential.element[1].short = "Product code set"
 * differential.element[1].definition = "Codes that describe this product at different levels (e.g. package, medicinal product, pharmaceutical product, product cluster)"
 * differential.element[1].min = 0
-* differential.element[1].max = "*"
+* differential.element[1].max = "1"
 * differential.element[1].type.code = #BackboneElement
 * differential.element[2].id = "Product.codeSet.productCode"
 * differential.element[2].path = "Product.codeSet.productCode"
@@ -66,12 +66,14 @@ Usage: #definition
 * differential.element[6].short = "Set of identifiers"
 * differential.element[6].definition = "Identifiers typically related to the supply chain management, but often used also for other purposes as the fight against falsified and counterfeit medicines; adverse event reporting, and so on."
 * differential.element[6].min = 0
-* differential.element[6].max = "*"
+* differential.element[6].max = "1"
 * differential.element[6].type.code = #BackboneElement
 * differential.element[7].id = "Product.identifier.dataCarrierIdentifier"
 * differential.element[7].path = "Product.identifier.dataCarrierIdentifier"
 * differential.element[7].short = "Data Carrier Identifier"
-* differential.element[7].definition = "Set of identifiers associated to this instance of the product. It could be a global (e.g. GTIN) or a national identifier. The identifiers may refer to different package levels : secondary packaging, packaged product, immediate container."
+* differential.element[7].definition = "Set of identifiers associated to this instance of the product. It could be a global (e.g. GTIN) or a national identifier. 
+The identifiers may refer to different package levels such as primary packaging or secondary packaging.
+The identifier of the lowest packaging should be captured."
 * differential.element[7].min = 0
 * differential.element[7].max = "*"
 * differential.element[7].type.code = #Identifier
@@ -94,7 +96,7 @@ Usage: #definition
 * differential.element[10].short = "Composition"
 * differential.element[10].definition = "Composition of this product"
 * differential.element[10].min = 0
-* differential.element[10].max = "*"
+* differential.element[10].max = "1"
 * differential.element[10].type.code = #BackboneElement
 * differential.element[11].id = "Product.composition.ingredient"
 * differential.element[11].path = "Product.composition.ingredient"
@@ -143,12 +145,12 @@ Usage: #definition
 * differential.element[17].short = "Market Authorization Holder (MAH)"
 * differential.element[17].definition = "the organisation that holds the authorisation for marketing a Medicinal Product in a region"
 * differential.element[17].min = 0
-* differential.element[17].max = "*"
+* differential.element[17].max = "1"
 * differential.element[17].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization
 * differential.element[18].id = "Product.manufacturer"
 * differential.element[18].path = "Product.manufacturer"
 * differential.element[18].short = "manufacturer"
 * differential.element[18].definition = "Organisation that holds the authorisation for the manufacturing process"
 * differential.element[18].min = 0
-* differential.element[18].max = "*"
+* differential.element[18].max = "1"
 * differential.element[18].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization
