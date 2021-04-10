@@ -11,7 +11,7 @@
   "title": "ISO TS 5384 Immunization FHIR Logical Models",
   "status": "draft",
   "experimental": true,
-  "date": "2021-04-10T17:27:17+00:00",
+  "date": "2021-04-10T19:24:34+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -307,6 +307,32 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/conformance-5384"
+        },
+        "name": "ISO TS 5384 Conformance Rules",
+        "description": "Requirement Descriptors for the ISO TS 5384"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/conformance-5384"
+        },
+        "name": "ISO TS 5384 Conformance Rules",
+        "description": "Requirement Descriptors for the ISO TS 5384."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "StructureDefinition:logical"
           }
         ],
@@ -393,6 +419,26 @@
           "generation": "markdown"
         },
         {
+          "nameUrl": "conformance.html",
+          "title": "Conformance",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "useCases.html",
+          "title": "ISO TS 5384 Use Cases",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "terminologies.html",
+          "title": "ISO TS 5382 Terminologies",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "models.html",
+          "title": "ISO TS 5382 Models",
+          "generation": "markdown"
+        },
+        {
           "nameUrl": "downloads.html",
           "title": "Useful Downloads",
           "generation": "html"
@@ -405,6 +451,10 @@
       ]
     },
     "parameter": [
+      {
+        "code": "path-resource",
+        "value": "input/terminologies"
+      },
       {
         "code": "path-resource",
         "value": "input/capabilities"
@@ -436,10 +486,6 @@
       {
         "code": "path-resource",
         "value": "input/vocabulary"
-      },
-      {
-        "code": "path-resource",
-        "value": "input/maps"
       },
       {
         "code": "path-resource",

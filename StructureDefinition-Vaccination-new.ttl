@@ -18,7 +18,7 @@
   fhir:StructureDefinition.title [ fhir:value "ISO TS 5384 data model (new)"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-10T17:27:17+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-10T19:24:34+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "ISO"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

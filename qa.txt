@@ -3,7 +3,7 @@
 
 err = 0, warn = 79, info = 0
 IG Publisher Version: 1.1.65
-Generated Sat Apr 10 17:27:29 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
+Generated Sat Apr 10 19:24:47 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
 
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-HealthProfessional : 0 / 0 / 1
@@ -13,6 +13,8 @@ Generated Sat Apr 10 17:27:29 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0
  /github/workspace/fsh-generated/resources/StructureDefinition-Vaccination : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Vaccination-new : 0 / 73 / 1
  /github/workspace/input/ig-iso-5384 : 0 / 0 / 1
+ /github/workspace/input/terminologies/codesystem-conformance-cen-ips : 0 / 0 / 1
+ /github/workspace/input/terminologies/valueset-conformance-cen-ips : 0 / 0 / 1
 </table>
 == n/a ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-HealthProfessional.json ==
@@ -108,3 +110,7 @@ WARNING: StructureDefinition/Vaccination-new: StructureDefinition.differential.e
 WARNING: StructureDefinition/Vaccination-new: StructureDefinition.differential.element[34]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed
 == /github/workspace/input/ig-iso-5384.xml ==
 INFORMATION: ImplementationGuide/iso.fhir.5384: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== /github/workspace/input/terminologies/codesystem-conformance-cen-ips.xml ==
+INFORMATION: CodeSystem/conformance-5384: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /github/workspace/input/terminologies/valueset-conformance-cen-ips.xml ==
+INFORMATION: ValueSet/conformance-5384: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet

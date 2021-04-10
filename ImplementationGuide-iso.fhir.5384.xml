@@ -12,7 +12,7 @@
   <title value="ISO TS 5384 Immunization FHIR Logical Models"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-10T17:27:17+00:00"/>
+  <date value="2021-04-10T19:24:34+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -193,6 +193,26 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/conformance-5384"/>
+      </reference>
+      <name value="ISO TS 5384 Conformance Rules"/>
+      <description value="Requirement Descriptors for the ISO TS 5384"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/conformance-5384"/>
+      </reference>
+      <name value="ISO TS 5384 Conformance Rules"/>
+      <description value="Requirement Descriptors for the ISO TS 5384."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
@@ -261,6 +281,26 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <nameUrl value="conformance.html"/>
+        <title value="Conformance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="useCases.html"/>
+        <title value="ISO TS 5384 Use Cases"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="terminologies.html"/>
+        <title value="ISO TS 5382 Terminologies"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="models.html"/>
+        <title value="ISO TS 5382 Models"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
         <generation value="html"/>
@@ -271,6 +311,10 @@
         <generation value="html"/>
       </page>
     </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/terminologies"/>
+    </parameter>
     <parameter>
       <code value="path-resource"/>
       <value value="input/capabilities"/>
@@ -302,10 +346,6 @@
     <parameter>
       <code value="path-resource"/>
       <value value="input/vocabulary"/>
-    </parameter>
-    <parameter>
-      <code value="path-resource"/>
-      <value value="input/maps"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

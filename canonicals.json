@@ -1,5 +1,12 @@
 [
   {
+    "id": "conformance-5384",
+    "type": "CodeSystem",
+    "url": "http://iso.org/fhir/ts-5384/CodeSystem/conformance-5384",
+    "version": "0.0.1",
+    "name": "CsConformance"
+  },
+  {
     "id": "iso.fhir.5384",
     "type": "ImplementationGuide",
     "url": "http://iso.org/fhir/ts-5384/ImplementationGuide/iso.fhir.5384",
@@ -47,5 +54,12 @@
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Vaccination-new",
     "version": "0.0.1",
     "name": "Vaccination-new"
+  },
+  {
+    "id": "conformance-5384",
+    "type": "ValueSet",
+    "url": "http://iso.org/fhir/ts-5384/ValueSet/conformance-5384",
+    "version": "0.0.1",
+    "name": "VsConformance"
   }
 ]
