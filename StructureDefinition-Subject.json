@@ -11,7 +11,7 @@
   "title": "Subject of Care",
   "status": "draft",
   "experimental": true,
-  "date": "2021-04-10T19:24:34+00:00",
+  "date": "2021-04-12T08:01:09+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -36,6 +36,11 @@
   ],
   "fhirVersion": "4.0.1",
   "mapping": [
+    {
+      "identity": "fhir",
+      "uri": "hl7.org/fhir/r4",
+      "name": "FHIR"
+    },
     {
       "identity": "rim",
       "uri": "http://hl7.org/v3",
@@ -79,6 +84,10 @@
           {
             "identity": "rim",
             "map": "n/a"
+          },
+          {
+            "identity": "fhir",
+            "map": "Patient"
           }
         ]
       },
@@ -192,6 +201,12 @@
           {
             "code": "Identifier"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.identifier"
+          }
         ]
       },
       {
@@ -209,6 +224,12 @@
         "type": [
           {
             "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name"
           }
         ]
       },
@@ -228,6 +249,12 @@
           {
             "code": "string"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name.text"
+          }
         ]
       },
       {
@@ -245,6 +272,12 @@
         "type": [
           {
             "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name.given"
           }
         ]
       },
@@ -264,6 +297,12 @@
           {
             "code": "string"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name.family"
+          }
         ]
       },
       {
@@ -281,6 +320,12 @@
         "type": [
           {
             "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Immunization.gender"
           }
         ]
       },
@@ -300,6 +345,12 @@
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Immunization.birthDate"
+          }
         ]
       }
     ]
@@ -312,7 +363,13 @@
         "short": "Subject of care",
         "definition": "Subject of care",
         "min": 1,
-        "max": "1"
+        "max": "1",
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient"
+          }
+        ]
       },
       {
         "id": "Subject.identifier",
@@ -324,6 +381,12 @@
         "type": [
           {
             "code": "Identifier"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.identifier"
           }
         ]
       },
@@ -338,6 +401,12 @@
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name"
+          }
         ]
       },
       {
@@ -350,6 +419,12 @@
         "type": [
           {
             "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name.text"
           }
         ]
       },
@@ -364,6 +439,12 @@
           {
             "code": "string"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name.given"
+          }
         ]
       },
       {
@@ -376,6 +457,12 @@
         "type": [
           {
             "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Patient.name.family"
           }
         ]
       },
@@ -390,6 +477,12 @@
           {
             "code": "CodeableConcept"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Immunization.gender"
+          }
         ]
       },
       {
@@ -402,6 +495,12 @@
         "type": [
           {
             "code": "dateTime"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "fhir",
+            "map": "Immunization.birthDate"
           }
         ]
       }

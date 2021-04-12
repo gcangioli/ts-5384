@@ -19,7 +19,7 @@
   <title value="Subject of Care"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-10T19:24:34+00:00"/>
+  <date value="2021-04-12T08:01:09+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -35,6 +35,11 @@
     </coding>
   </jurisdiction>
   <fhirVersion value="4.0.1"/>
+  <mapping>
+    <identity value="fhir"/>
+    <uri value="hl7.org/fhir/r4"/>
+    <name value="FHIR"/>
+  </mapping>
   <mapping>
     <identity value="rim"/>
     <uri value="http://hl7.org/v3"/>
@@ -70,6 +75,10 @@
       <mapping>
         <identity value="rim"/>
         <map value="n/a"/>
+      </mapping>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient"/>
       </mapping>
     </element>
     <element id="Subject.id">
@@ -159,6 +168,10 @@
       <type>
         <code value="Identifier"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.identifier"/>
+      </mapping>
     </element>
     <element id="Subject.name">
       <path value="Subject.name"/>
@@ -174,6 +187,10 @@
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name"/>
+      </mapping>
     </element>
     <element id="Subject.name.fullName">
       <path value="Subject.name.fullName"/>
@@ -189,6 +206,10 @@
       <type>
         <code value="string"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name.text"/>
+      </mapping>
     </element>
     <element id="Subject.name.firstName">
       <path value="Subject.name.firstName"/>
@@ -204,6 +225,10 @@
       <type>
         <code value="string"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name.given"/>
+      </mapping>
     </element>
     <element id="Subject.name.lastname">
       <path value="Subject.name.lastname"/>
@@ -219,6 +244,10 @@
       <type>
         <code value="string"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name.family"/>
+      </mapping>
     </element>
     <element id="Subject.gender">
       <path value="Subject.gender"/>
@@ -234,6 +263,10 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.gender"/>
+      </mapping>
     </element>
     <element id="Subject.dateOfBirth">
       <path value="Subject.dateOfBirth"/>
@@ -249,6 +282,10 @@
       <type>
         <code value="dateTime"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.birthDate"/>
+      </mapping>
     </element>
   </snapshot>
   <differential>
@@ -258,6 +295,10 @@
       <definition value="Subject of care"/>
       <min value="1"/>
       <max value="1"/>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient"/>
+      </mapping>
     </element>
     <element id="Subject.identifier">
       <path value="Subject.identifier"/>
@@ -268,6 +309,10 @@
       <type>
         <code value="Identifier"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.identifier"/>
+      </mapping>
     </element>
     <element id="Subject.name">
       <path value="Subject.name"/>
@@ -278,6 +323,10 @@
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name"/>
+      </mapping>
     </element>
     <element id="Subject.name.fullName">
       <path value="Subject.name.fullName"/>
@@ -288,6 +337,10 @@
       <type>
         <code value="string"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name.text"/>
+      </mapping>
     </element>
     <element id="Subject.name.firstName">
       <path value="Subject.name.firstName"/>
@@ -298,6 +351,10 @@
       <type>
         <code value="string"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name.given"/>
+      </mapping>
     </element>
     <element id="Subject.name.lastname">
       <path value="Subject.name.lastname"/>
@@ -308,6 +365,10 @@
       <type>
         <code value="string"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Patient.name.family"/>
+      </mapping>
     </element>
     <element id="Subject.gender">
       <path value="Subject.gender"/>
@@ -318,6 +379,10 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.gender"/>
+      </mapping>
     </element>
     <element id="Subject.dateOfBirth">
       <path value="Subject.dateOfBirth"/>
@@ -328,6 +393,10 @@
       <type>
         <code value="dateTime"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.birthDate"/>
+      </mapping>
     </element>
   </differential>
 </StructureDefinition>

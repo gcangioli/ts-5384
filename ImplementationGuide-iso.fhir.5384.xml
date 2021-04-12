@@ -12,7 +12,7 @@
   <title value="ISO TS 5384 Immunization FHIR Logical Models"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-10T19:24:34+00:00"/>
+  <date value="2021-04-12T08:01:09+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -246,9 +246,9 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccination-new"/>
+        <reference value="StructureDefinition/Forecast"/>
       </reference>
-      <name value="ISO TS 5384 data model (new)"/>
+      <name value="Immunization Forecast"/>
       <description value="ISO TS 5384 data model"/>
     </resource>
     <resource>
@@ -270,6 +270,16 @@
       </reference>
       <name value="Health Professional"/>
       <description value="Health Professional"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Immunization"/>
+      </reference>
+      <name value="ISO TS 5384 data model (new)"/>
+      <description value="ISO TS 5384 data model"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

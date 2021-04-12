@@ -14,11 +14,25 @@
     "name": "IsoTs5384"
   },
   {
+    "id": "Forecast",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Forecast",
+    "version": "0.0.1",
+    "name": "Immunization5384"
+  },
+  {
     "id": "HealthProfessional",
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional",
     "version": "0.0.1",
     "name": "HealthProfessional"
+  },
+  {
+    "id": "Immunization",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization",
+    "version": "0.0.1",
+    "name": "Immunization5384"
   },
   {
     "id": "Product",
@@ -47,13 +61,6 @@
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Vaccination",
     "version": "0.0.1",
     "name": "Vaccination"
-  },
-  {
-    "id": "Vaccination-new",
-    "type": "StructureDefinition",
-    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Vaccination-new",
-    "version": "0.0.1",
-    "name": "Vaccination-new"
   },
   {
     "id": "conformance-5384",

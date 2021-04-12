@@ -18,7 +18,7 @@
   fhir:StructureDefinition.title [ fhir:value "Subject of Care"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-10T19:24:34+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-12T08:01:09+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "ISO"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -40,6 +40,11 @@
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
   fhir:StructureDefinition.mapping [
      fhir:index 0;
+     fhir:StructureDefinition.mapping.identity [ fhir:value "fhir" ];
+     fhir:StructureDefinition.mapping.uri [ fhir:value "hl7.org/fhir/r4" ];
+     fhir:StructureDefinition.mapping.name [ fhir:value "FHIR" ]
+  ], [
+     fhir:index 1;
      fhir:StructureDefinition.mapping.identity [ fhir:value "rim" ];
      fhir:StructureDefinition.mapping.uri [ fhir:value "http://hl7.org/v3" ];
      fhir:StructureDefinition.mapping.name [ fhir:value "RIM Mapping" ]
@@ -87,6 +92,10 @@
          fhir:index 0;
          fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient" ]
        ]
      ], [
        fhir:index 1;
@@ -201,6 +210,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.identifier" ]
        ]
      ], [
        fhir:index 4;
@@ -218,6 +232,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name" ]
        ]
      ], [
        fhir:index 5;
@@ -235,6 +254,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name.text" ]
        ]
      ], [
        fhir:index 6;
@@ -252,6 +276,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name.given" ]
        ]
      ], [
        fhir:index 7;
@@ -269,6 +298,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name.family" ]
        ]
      ], [
        fhir:index 8;
@@ -286,6 +320,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Immunization.gender" ]
        ]
      ], [
        fhir:index 9;
@@ -303,6 +342,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Immunization.birthDate" ]
        ]
      ]
   ];
@@ -314,7 +358,12 @@
        fhir:ElementDefinition.short [ fhir:value "Subject of care" ];
        fhir:ElementDefinition.definition [ fhir:value "Subject of care" ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "1" ]
+       fhir:ElementDefinition.max [ fhir:value "1" ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient" ]
+       ]
      ], [
        fhir:index 1;
        fhir:Element.id [ fhir:value "Subject.identifier" ];
@@ -326,6 +375,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Identifier" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.identifier" ]
        ]
      ], [
        fhir:index 2;
@@ -338,6 +392,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name" ]
        ]
      ], [
        fhir:index 3;
@@ -350,6 +409,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name.text" ]
        ]
      ], [
        fhir:index 4;
@@ -362,6 +426,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name.given" ]
        ]
      ], [
        fhir:index 5;
@@ -374,6 +443,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Patient.name.family" ]
        ]
      ], [
        fhir:index 6;
@@ -386,6 +460,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Immunization.gender" ]
        ]
      ], [
        fhir:index 7;
@@ -398,6 +477,11 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
+       ];
+       fhir:ElementDefinition.mapping [
+         fhir:index 0;
+         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
+         fhir:ElementDefinition.mapping.map [ fhir:value "Immunization.birthDate" ]
        ]
      ]
   ] .

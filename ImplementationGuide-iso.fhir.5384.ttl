@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ISO TS 5384 Immunization FHIR Logical Models"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-10T19:24:34+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-12T08:01:09+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "ISO"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -358,10 +358,10 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://iso.org/fhir/ts-5384/StructureDefinition/Vaccination-new>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccination-new" ]
+         fhir:link <http://iso.org/fhir/ts-5384/StructureDefinition/Forecast>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Forecast" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ISO TS 5384 data model (new)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Immunization Forecast" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO TS 5384 data model" ]
      ], [
        fhir:index 6;
@@ -389,6 +389,19 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Health Professional" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Health Professional" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://iso.org/fhir/ts-5384/StructureDefinition/Immunization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Immunization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ISO TS 5384 data model (new)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO TS 5384 data model" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
