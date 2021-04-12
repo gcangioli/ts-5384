@@ -1,14 +1,14 @@
 ﻿IsoTs5384 : Validation Results
 =========================================
 
-err = 0, warn = 10, info = 0
+err = 0, warn = 6, info = 0
 IG Publisher Version: 1.1.65
-Generated Mon Apr 12 08:01:23 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
+Generated Mon Apr 12 10:07:33 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
 
- Build Errors : 2 / 0 / 0
+ Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-Forecast : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-HealthProfessional : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-Immunization : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Product : 0 / 6 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-SimpleOrganization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Subject : 0 / 0 / 1
@@ -18,18 +18,12 @@ Generated Mon Apr 12 08:01:23 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0
  /github/workspace/input/terminologies/valueset-conformance-cen-ips : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/StructureDefinition-Forecast.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 308, column 663: The link 'StructureDefinition-Forecast-definitions.html#Forecast.forecast' for "forecast" cannot be resolved (valid targets: [Forecast.forecast.date, Forecast.id, Forecast.forecast.description, publish-box, segment-post-footer, hl7-search, hl7-search-lnk, family-logo, root, stripe, segment-footer, segment-content, Forecast.forecast.status, logical-model-immunization5384-detailed-descriptions, Forecast.forecast.date.type, Forecast.forecast.date.value, segment-header, hl7-logo, Forecast.forecast.supportingInformation, family-nav, ig-status, Forecast.extension, Forecast, hl7-nav, segment-navbar, Forecast.forecast.creationDate, segment-breadcrumb])
-ERROR: /github/workspace/output/StructureDefinition-Forecast.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 404, column 663: The link 'StructureDefinition-Forecast-definitions.html#Forecast.forecast' for "forecast" cannot be resolved (valid targets: [Forecast.forecast.date, Forecast.id, Forecast.forecast.description, publish-box, segment-post-footer, hl7-search, hl7-search-lnk, family-logo, root, stripe, segment-footer, segment-content, Forecast.forecast.status, logical-model-immunization5384-detailed-descriptions, Forecast.forecast.date.type, Forecast.forecast.date.value, segment-header, hl7-logo, Forecast.forecast.supportingInformation, family-nav, ig-status, Forecast.extension, Forecast, hl7-nav, segment-navbar, Forecast.forecast.creationDate, segment-breadcrumb])
 == /github/workspace/fsh-generated/resources/StructureDefinition-Forecast.json ==
 INFORMATION: StructureDefinition/Forecast: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-HealthProfessional.json ==
 INFORMATION: StructureDefinition/HealthProfessional: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-Immunization.json ==
 INFORMATION: StructureDefinition/Immunization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition/Immunization: StructureDefinition.snapshot.element[11].short: value should not start or finish with whitespace
-WARNING: StructureDefinition/Immunization: StructureDefinition.snapshot.element[20].short: value should not start or finish with whitespace
-WARNING: StructureDefinition/Immunization: StructureDefinition.differential.element[9].short: value should not start or finish with whitespace
-WARNING: StructureDefinition/Immunization: StructureDefinition.differential.element[18].short: value should not start or finish with whitespace
 == /github/workspace/fsh-generated/resources/StructureDefinition-Product.json ==
 INFORMATION: StructureDefinition/Product: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Product: StructureDefinition.snapshot.element[5]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed

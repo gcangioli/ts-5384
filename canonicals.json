@@ -18,7 +18,7 @@
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Forecast",
     "version": "0.0.1",
-    "name": "Immunization5384"
+    "name": "ImmunizationForecast"
   },
   {
     "id": "HealthProfessional",
@@ -32,7 +32,7 @@
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization",
     "version": "0.0.1",
-    "name": "Immunization5384"
+    "name": "Immunization"
   },
   {
     "id": "Product",
@@ -53,7 +53,7 @@
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Subject",
     "version": "0.0.1",
-    "name": "Subject"
+    "name": "SubjectOfCare"
   },
   {
     "id": "Vaccination",

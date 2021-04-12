@@ -4,29 +4,28 @@
   <id value="Forecast"/>
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast" title="Subject's immunization forecast">Forecast</a><a name="Forecast"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Element">Element</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Subject's immunization forecast</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast">forecast</a><a name="Forecast.forecast"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast.creationDate" title="The date the subject's Immunization Forecast Status was generated
-The date the subject's Immunization Forecast Status was generated may not be the same as the Immunization Forecast Date.">creationDate</a><a name="Forecast.forecast.creationDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Status Generated Date</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast.status" title="Represents the subject's requirement type for a particular Medicinal Immunizing Product.
-Provides the status of a subject towards immunity against a Vaccine Preventable Disease.  Values may include due, overdue, no longer recommended etc.)  A subject's immunization forecast status changes over time and is dependent on the interval of time between immunizations, the subject's age and other risk factors (e.g. pregnancy).  ">status</a><a name="Forecast.forecast.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Status</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast.description" title="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.
-This information assists the clinician and subject in understanding the Immunization Forecast Status.  (e.g., Recommend 3 doses of the HPV vaccine starting at age 15 years)">description</a><a name="Forecast.forecast.description"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Description</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast.supportingInformation" title="Represents subject information that supports requirements related to a forecasted immunization event.
-This includes elaboration of the Immunization Forecast Status, Immunization Forecast Description, observations, adverse reactions etc..">supportingInformation</a><a name="Forecast.forecast.supportingInformation"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Supporting Information</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck001.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast.date" title="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.">date</a><a name="Forecast.forecast.date"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Date<br/></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast.date.type" title="Type of date classification pertinent to the administration of the forecasted immunization event.  
-This data element must align and be used with Immunization Forecast Date data element.  Examples of values to support this data element include: the earliest due date, latest due date (the recommended date) for administration of the vaccine.">type</a><a name="Forecast.forecast.date.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Date Type</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck0000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.forecast.date.value" title="The date provided in the subject's immunization forecast whose meaning relates to the Immunization Forecast Date Type.
-This data element must align and be used with the Immunization Forecast Date Type data element.">value</a><a name="Forecast.forecast.date.value"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Date</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.creationDate" title="The date the subject's Immunization Forecast Status was generated
+The date the subject's Immunization Forecast Status was generated may not be the same as the Immunization Forecast Date.">creationDate</a><a name="Forecast.creationDate"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Status Generated Date</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.status" title="Represents the subject's requirement type for a particular Medicinal Immunizing Product.
+Provides the status of a subject towards immunity against a Vaccine Preventable Disease.  Values may include due, overdue, no longer recommended etc.)  A subject's immunization forecast status changes over time and is dependent on the interval of time between immunizations, the subject's age and other risk factors (e.g. pregnancy).  ">status</a><a name="Forecast.status"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Status</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.description" title="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.
+This information assists the clinician and subject in understanding the Immunization Forecast Status.  (e.g., Recommend 3 doses of the HPV vaccine starting at age 15 years)">description</a><a name="Forecast.description"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Description</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: white; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.supportingInformation" title="Represents subject information that supports requirements related to a forecasted immunization event.
+This includes elaboration of the Immunization Forecast Status, Immunization Forecast Description, observations, adverse reactions etc..">supportingInformation</a><a name="Forecast.supportingInformation"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Supporting Information</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.date" title="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.">date</a><a name="Forecast.date"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Date<br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck010.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.date.type" title="Type of date classification pertinent to the administration of the forecasted immunization event.  
+This data element must align and be used with Immunization Forecast Date data element.  Examples of values to support this data element include: the earliest due date, latest due date (the recommended date) for administration of the vaccine.">type</a><a name="Forecast.date.type"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Date Type</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Forecast-definitions.html#Forecast.date.value" title="The date provided in the subject's immunization forecast whose meaning relates to the Immunization Forecast Date Type.
+This data element must align and be used with the Immunization Forecast Date Type data element.">value</a><a name="Forecast.date.value"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Immunization Forecast Date</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://iso.org/fhir/ts-5384/StructureDefinition/Forecast"/>
   <version value="0.0.1"/>
-  <name value="Immunization5384"/>
+  <name value="ImmunizationForecast"/>
   <title value="Immunization Forecast"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-12T08:01:09+00:00"/>
+  <date value="2021-04-12T10:07:21+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -157,14 +156,14 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.creationDate">
-      <path value="Forecast.forecast.creationDate"/>
+    <element id="Forecast.creationDate">
+      <path value="Forecast.creationDate"/>
       <short value="Immunization Forecast Status Generated Date"/>
       <definition value="The date the subject&#39;s Immunization Forecast Status was generated&#xA;The date the subject&#39;s Immunization Forecast Status was generated may not be the same as the Immunization Forecast Date."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="Forecast.forecast.creationDate"/>
+        <path value="Forecast.creationDate"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -177,14 +176,14 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <comment value="note"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.status">
-      <path value="Forecast.forecast.status"/>
+    <element id="Forecast.status">
+      <path value="Forecast.status"/>
       <short value="Immunization Forecast Status"/>
       <definition value="Represents the subject&#39;s requirement type for a particular Medicinal Immunizing Product.&#xA;Provides the status of a subject towards immunity against a Vaccine Preventable Disease.  Values may include due, overdue, no longer recommended etc.)  A subject&#39;s immunization forecast status changes over time and is dependent on the interval of time between immunizations, the subject&#39;s age and other risk factors (e.g. pregnancy).  "/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="Forecast.forecast.status"/>
+        <path value="Forecast.status"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -196,14 +195,14 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.recommendation.forecastStatus"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.description">
-      <path value="Forecast.forecast.description"/>
+    <element id="Forecast.description">
+      <path value="Forecast.description"/>
       <short value="Immunization Forecast Description"/>
       <definition value="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.&#xA;This information assists the clinician and subject in understanding the Immunization Forecast Status.  (e.g., Recommend 3 doses of the HPV vaccine starting at age 15 years)"/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="Forecast.forecast.description"/>
+        <path value="Forecast.description"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -215,14 +214,14 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.description"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.supportingInformation">
-      <path value="Forecast.forecast.supportingInformation"/>
+    <element id="Forecast.supportingInformation">
+      <path value="Forecast.supportingInformation"/>
       <short value="Immunization Forecast Supporting Information"/>
       <definition value="Represents subject information that supports requirements related to a forecasted immunization event.&#xA;This includes elaboration of the Immunization Forecast Status, Immunization Forecast Description, observations, adverse reactions etc.."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="Forecast.forecast.supportingInformation"/>
+        <path value="Forecast.supportingInformation"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -238,14 +237,14 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.supportingImmunization"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.date">
-      <path value="Forecast.forecast.date"/>
+    <element id="Forecast.date">
+      <path value="Forecast.date"/>
       <short value="Immunization Forecast Date"/>
       <definition value="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="Forecast.forecast.date"/>
+        <path value="Forecast.date"/>
         <min value="0"/>
         <max value="*"/>
       </base>
@@ -257,14 +256,14 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.recommendation.dateCriterion"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.date.type">
-      <path value="Forecast.forecast.date.type"/>
+    <element id="Forecast.date.type">
+      <path value="Forecast.date.type"/>
       <short value="Immunization Forecast Date Type"/>
       <definition value="Type of date classification pertinent to the administration of the forecasted immunization event.  &#xA;This data element must align and be used with Immunization Forecast Date data element.  Examples of values to support this data element include: the earliest due date, latest due date (the recommended date) for administration of the vaccine."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="Forecast.forecast.date.type"/>
+        <path value="Forecast.date.type"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -276,14 +275,14 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.recommendation.dateCriterion.code"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.date.value">
-      <path value="Forecast.forecast.date.value"/>
+    <element id="Forecast.date.value">
+      <path value="Forecast.date.value"/>
       <short value="Immunization Forecast Date"/>
       <definition value="The date provided in the subject&#39;s immunization forecast whose meaning relates to the Immunization Forecast Date Type.&#xA;This data element must align and be used with the Immunization Forecast Date Type data element."/>
       <min value="0"/>
       <max value="1"/>
       <base>
-        <path value="Forecast.forecast.date.value"/>
+        <path value="Forecast.date.value"/>
         <min value="0"/>
         <max value="1"/>
       </base>
@@ -304,8 +303,8 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <min value="1"/>
       <max value="1"/>
     </element>
-    <element id="Forecast.forecast.creationDate">
-      <path value="Forecast.forecast.creationDate"/>
+    <element id="Forecast.creationDate">
+      <path value="Forecast.creationDate"/>
       <short value="Immunization Forecast Status Generated Date"/>
       <definition value="The date the subject&#39;s Immunization Forecast Status was generated&#xA;The date the subject&#39;s Immunization Forecast Status was generated may not be the same as the Immunization Forecast Date."/>
       <min value="0"/>
@@ -319,8 +318,8 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <comment value="note"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.status">
-      <path value="Forecast.forecast.status"/>
+    <element id="Forecast.status">
+      <path value="Forecast.status"/>
       <short value="Immunization Forecast Status"/>
       <definition value="Represents the subject&#39;s requirement type for a particular Medicinal Immunizing Product.&#xA;Provides the status of a subject towards immunity against a Vaccine Preventable Disease.  Values may include due, overdue, no longer recommended etc.)  A subject&#39;s immunization forecast status changes over time and is dependent on the interval of time between immunizations, the subject&#39;s age and other risk factors (e.g. pregnancy).  "/>
       <min value="0"/>
@@ -333,8 +332,8 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.recommendation.forecastStatus"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.description">
-      <path value="Forecast.forecast.description"/>
+    <element id="Forecast.description">
+      <path value="Forecast.description"/>
       <short value="Immunization Forecast Description"/>
       <definition value="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.&#xA;This information assists the clinician and subject in understanding the Immunization Forecast Status.  (e.g., Recommend 3 doses of the HPV vaccine starting at age 15 years)"/>
       <min value="0"/>
@@ -347,8 +346,8 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.description"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.supportingInformation">
-      <path value="Forecast.forecast.supportingInformation"/>
+    <element id="Forecast.supportingInformation">
+      <path value="Forecast.supportingInformation"/>
       <short value="Immunization Forecast Supporting Information"/>
       <definition value="Represents subject information that supports requirements related to a forecasted immunization event.&#xA;This includes elaboration of the Immunization Forecast Status, Immunization Forecast Description, observations, adverse reactions etc.."/>
       <min value="0"/>
@@ -365,8 +364,8 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.supportingImmunization"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.date">
-      <path value="Forecast.forecast.date"/>
+    <element id="Forecast.date">
+      <path value="Forecast.date"/>
       <short value="Immunization Forecast Date"/>
       <definition value="Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject."/>
       <min value="0"/>
@@ -379,8 +378,8 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.recommendation.dateCriterion"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.date.type">
-      <path value="Forecast.forecast.date.type"/>
+    <element id="Forecast.date.type">
+      <path value="Forecast.date.type"/>
       <short value="Immunization Forecast Date Type"/>
       <definition value="Type of date classification pertinent to the administration of the forecasted immunization event.  &#xA;This data element must align and be used with Immunization Forecast Date data element.  Examples of values to support this data element include: the earliest due date, latest due date (the recommended date) for administration of the vaccine."/>
       <min value="0"/>
@@ -393,8 +392,8 @@ This data element must align and be used with the Immunization Forecast Date Typ
         <map value="ImmunizationRecommendation.recommendation.dateCriterion.code"/>
       </mapping>
     </element>
-    <element id="Forecast.forecast.date.value">
-      <path value="Forecast.forecast.date.value"/>
+    <element id="Forecast.date.value">
+      <path value="Forecast.date.value"/>
       <short value="Immunization Forecast Date"/>
       <definition value="The date provided in the subject&#39;s immunization forecast whose meaning relates to the Immunization Forecast Date Type.&#xA;This data element must align and be used with the Immunization Forecast Date Type data element."/>
       <min value="0"/>
