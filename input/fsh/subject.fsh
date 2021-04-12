@@ -13,6 +13,11 @@ Usage: #definition
 * experimental = true
 * description = "Subject vaccinated"
 * version = "0.0.1"
+
+* mapping[0].identity = "fhir"
+* mapping[0].uri = "hl7.org/fhir/r4"
+* mapping[0].name = "FHIR"
+
 * kind = #logical
 * abstract = false
 * type = "Subject"
@@ -75,3 +80,30 @@ Usage: #definition
 * differential.element[7].min = 0
 * differential.element[7].max = "1"
 * differential.element[7].type.code = #dateTime
+
+
+// =====   MAPPING ===
+
+* differential.element[0].mapping[0].identity = "fhir"
+* differential.element[0].mapping[0].map = "Patient"
+
+* differential.element[1].mapping[0].identity = "fhir"
+* differential.element[1].mapping[0].map = "Patient.identifier"
+
+* differential.element[2].mapping[0].identity = "fhir"
+* differential.element[2].mapping[0].map = "Patient.name"
+
+* differential.element[3].mapping[0].identity = "fhir"
+* differential.element[3].mapping[0].map = "Patient.name.text"
+
+* differential.element[4].mapping[0].identity = "fhir"
+* differential.element[4].mapping[0].map = "Patient.name.given"
+
+* differential.element[5].mapping[0].identity = "fhir"
+* differential.element[5].mapping[0].map = "Patient.name.family"
+
+* differential.element[6].mapping[0].identity = "fhir"
+* differential.element[6].mapping[0].map = "Immunization.gender"
+
+* differential.element[7].mapping[0].identity = "fhir"
+* differential.element[7].mapping[0].map = "Immunization.birthDate"

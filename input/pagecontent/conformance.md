@@ -3,10 +3,10 @@
 <table>
 <thead>
 <tr class="header">
-<th><em><strong>Value</strong></em></th>
-<th><em><strong>Description</strong></em></th>
-<th><em><strong>Comment</strong></em></th>
-<th><em><strong>Convention used in the FHIR logical model representation</strong></em></th>
+<th><em>Value</em></th>
+<th><em>Description</em></th>
+<th><em>Comment</em></th>
+<th><em>Convention used in the FHIR logical model representation</em></th>
 </tr>
 </thead>
 <tbody>
