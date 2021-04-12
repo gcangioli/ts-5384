@@ -7,7 +7,7 @@ Usage: #definition
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Subject"
-* name = "Subject"
+* name = "SubjectOfCare"
 * title = "Subject of Care"
 * status = #draft
 * experimental = true
@@ -33,15 +33,15 @@ Usage: #definition
 
 * differential.element[1].id = "Subject.identifier"
 * differential.element[1].path = "Subject.identifier"
-* differential.element[1].short = "ID"
-* differential.element[1].definition = "ID"
+* differential.element[1].short = "Person Identifier"
+* differential.element[1].definition = "The identifier used to identify the immunized person according to the policies applicable within the jurisdiction."
 * differential.element[1].min = 0
 * differential.element[1].max = "*"
 * differential.element[1].type.code = #Identifier
 * differential.element[2].id = "Subject.name"
 * differential.element[2].path = "Subject.name"
-* differential.element[2].short = "Subject Name"
-* differential.element[2].definition = "Subject Name"
+* differential.element[2].short = "Person Name"
+* differential.element[2].definition = "The legal name of the immunized person"
 * differential.element[2].min = 0
 * differential.element[2].max = "*"
 * differential.element[2].type.code = #BackboneElement
@@ -76,13 +76,30 @@ Usage: #definition
 * differential.element[7].id = "Subject.dateOfBirth"
 * differential.element[7].path = "Subject.dateOfBirth"
 * differential.element[7].short = "Date of birth"
-* differential.element[7].definition = "Date of birth"
+* differential.element[7].definition = "The date of birth of the immunized person.
+To include at a minimum the year of birth (which could be estimated)"
 * differential.element[7].min = 0
 * differential.element[7].max = "1"
 * differential.element[7].type.code = #dateTime
+* differential.element[8].id = "Subject.ethnicity"
+* differential.element[8].path = "Subject.ethnicity"
+* differential.element[8].short = "Ethnicity"
+* differential.element[8].definition = "Represents the self-reported ethnic group of the immunized person.
+This should not be confused with citizenship or nationality."
+* differential.element[8].min = 0
+* differential.element[8].max = "1"
+* differential.element[8].type.code = #CodeableConcept
+* differential.element[9].id = "Subject.sex"
+* differential.element[9].path = "Subject.sex"
+* differential.element[9].short = "Recorded Sex"
+* differential.element[9].definition = "Documentation of a specific instance of sex information. 
+Not to be confused with the client’s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else."
+* differential.element[9].min = 0
+* differential.element[9].max = "1"
+* differential.element[9].type.code = #CodeableConcept
 
 
-// =====   MAPPING ===
+// MAPPING
 
 * differential.element[0].mapping[0].identity = "fhir"
 * differential.element[0].mapping[0].map = "Patient"
@@ -103,7 +120,10 @@ Usage: #definition
 * differential.element[5].mapping[0].map = "Patient.name.family"
 
 * differential.element[6].mapping[0].identity = "fhir"
-* differential.element[6].mapping[0].map = "Immunization.gender"
+* differential.element[6].mapping[0].map = "Patient.gender"
 
 * differential.element[7].mapping[0].identity = "fhir"
-* differential.element[7].mapping[0].map = "Immunization.birthDate"
+* differential.element[7].mapping[0].map = "Patient.birthDate"
+
+* differential.element[8].mapping[0].identity = "fhir"
+* differential.element[8].mapping[0].map = "Patient.extension"

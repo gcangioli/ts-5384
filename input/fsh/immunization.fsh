@@ -7,7 +7,7 @@ Usage: #definition
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization"
-* name = "Immunization5384"
+* name = "Immunization"
 * title = "ISO TS 5384 data model (new)"
 * status = #draft
 * experimental = true
@@ -95,7 +95,7 @@ This data element is required when the trade name is not known (such as a record
 * differential.element[8].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject
 * differential.element[9].id = "Immunization.product"
 * differential.element[9].path = "Immunization.product"
-* differential.element[9].short = "Medicinal Immunizing Product "
+* differential.element[9].short = "Medicinal Immunizing Product"
 * differential.element[9].definition = "A manufactured product that is a representation of a brand specific Immunizing Agent authorized for use in a jurisdiction.  
 The values to support this data element include both active immunizing agents/ vaccines (e.g., Hepatitis A +B Vaccine, and passive immunizing agents, (e.g., Rabies Immunoglobulin). 
 The values may include ONLY the trade name of the product or a complete description of the product that may include the immunizing agent+dose form+trade name (or other attributes to distinguish the product."
@@ -112,7 +112,7 @@ The values may include ONLY the trade name of the product or a complete descript
 * differential.element[11].id = "Immunization.administration.date"
 * differential.element[11].path = "Immunization.administration.date"
 * differential.element[11].short = "Date of Immunization Administration"
-* differential.element[11].definition = "The date the Medicinal Immunizing Product was administered to the person. "
+* differential.element[11].definition = "The date the Medicinal Immunizing Product was administered to the person."
 * differential.element[11].min = 0
 * differential.element[11].max = "1"
 * differential.element[11].type.code = #BackboneElement
@@ -136,7 +136,7 @@ To be used in conjunction with the Date of Immunization Administration data elem
 * differential.element[14].id = "Immunization.administration.dosage"
 * differential.element[14].path = "Immunization.administration.dosage"
 * differential.element[14].short = "Quantity administered"
-* differential.element[14].definition = "Quantity of the dose administered; (e.g., influenza dose is 0.25 or 0.5).  "
+* differential.element[14].definition = "Quantity of the dose administered; (e.g., influenza dose is 0.25 or 0.5)."
 * differential.element[14].min = 0
 * differential.element[14].max = "*"
 * differential.element[14].type.code = #Quantity
@@ -152,7 +152,7 @@ Assists with management reporting such as adverse event management (e.g., was th
 * differential.element[16].path = "Immunization.administration.site"
 * differential.element[16].short = "Immunization Anatomical Site"
 * differential.element[16].definition = "The body location to or through which a Medicinal Immunizing Product was administered.
-It is important to record where the Medicinal Immunizing Product was delivered to the body in the event of a reported local reaction to a vaccine.  When multiple agents are administered to multiple sites on the body, anatomical site helps determine which vaccine may have been responsible.  "
+It is important to record where the Medicinal Immunizing Product was delivered to the body in the event of a reported local reaction to a vaccine.  When multiple agents are administered to multiple sites on the body, anatomical site helps determine which vaccine may have been responsible."
 * differential.element[16].min = 0
 * differential.element[16].max = "1"
 * differential.element[16].type.code = #CodeableConcept
@@ -165,7 +165,7 @@ It is important to record where the Medicinal Immunizing Product was delivered t
 * differential.element[17].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional
 * differential.element[18].id = "Immunization.administration.administrationCenter"
 * differential.element[18].path = "Immunization.administration.administrationCenter"
-* differential.element[18].short = "Organization responsible for Immunization Administration "
+* differential.element[18].short = "Organization responsible for Immunization Administration"
 * differential.element[18].definition = "The health authority responsible for the immunization event."
 * differential.element[18].min = 0
 * differential.element[18].max = "1"
@@ -173,7 +173,7 @@ It is important to record where the Medicinal Immunizing Product was delivered t
 * differential.element[19].id = "Immunization.administration.location"
 * differential.element[19].path = "Immunization.administration.location"
 * differential.element[19].short = "Location of Immunization Administration"
-* differential.element[19].definition = "The location where the immunization occurred is a further specification of the Organization responsible for Immunization Administration.  "
+* differential.element[19].definition = "The location where the immunization occurred is a further specification of the Organization responsible for Immunization Administration."
 * differential.element[19].min = 0
 * differential.element[19].max = "1"
 * differential.element[19].type.code = #Location
@@ -246,10 +246,11 @@ Example: Rash, Hives"
 * differential.element[29].id = "Immunization.notes"
 * differential.element[29].path = "Immunization.notes"
 * differential.element[29].short = "Additional information relevant to the immunization record."
-* differential.element[29].definition = "The note is specific to the immunization event, agent or antigen. "
+* differential.element[29].definition = "The note is specific to the immunization event, agent or antigen."
 * differential.element[29].min = 0
 * differential.element[29].max = "1"
 * differential.element[29].type.code = #markdown
+
 
 
 // MAPPING
