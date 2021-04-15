@@ -1,14 +1,14 @@
 Instance: Immunization
 InstanceOf: StructureDefinition
 Description: "ISO TS 5384 data model"
-Title: "ISO TS 5384 data model (new)"
+Title: "ISO TS 5384 data model (general)"
 Usage: #definition
 
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization"
 * name = "Immunization"
-* title = "ISO TS 5384 data model (new)"
+* title = "ISO TS 5384 data model (general)"
 * status = #draft
 * experimental = true
 * description = "ISO TS 5384 data model"
@@ -19,7 +19,7 @@ Usage: #definition
 * mapping[0].name = "FHIR"
 
 * kind = #logical
-* abstract = false
+* abstract = true
 * type = "Immunization"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
@@ -198,14 +198,16 @@ It is important to record where the Medicinal Immunizing Product was delivered t
 * differential.element[22].definition = "Dose Number"
 * differential.element[22].min = 0
 * differential.element[22].max = "1"
-* differential.element[22].type.code = #BackboneElement
+* differential.element[22].type[0].code = #integer
+* differential.element[22].type[1].code = #string
 * differential.element[23].id = "Immunization.protocol.seriesDoseNumber"
 * differential.element[23].path = "Immunization.protocol.seriesDoseNumber"
 * differential.element[23].short = "Series Dose Number"
 * differential.element[23].definition = "Series Dose Number"
 * differential.element[23].min = 0
 * differential.element[23].max = "1"
-* differential.element[23].type.code = #BackboneElement
+* differential.element[23].type[0].code = #integer
+* differential.element[23].type[1].code = #string
 * differential.element[24].id = "Immunization.reaction"
 * differential.element[24].path = "Immunization.reaction"
 * differential.element[24].short = "Adverse Reaction"

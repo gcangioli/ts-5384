@@ -7,7 +7,7 @@ Usage: #definition
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1"
-* name = "SubjectUc1"
+* name = "SubjectOfCareRegistry"
 * title = "Subject of Care - Registry Use Case"
 * status = #draft
 * experimental = true

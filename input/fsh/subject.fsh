@@ -19,7 +19,7 @@ Usage: #definition
 * mapping[0].name = "FHIR"
 
 * kind = #logical
-* abstract = false
+* abstract = true
 * type = "Subject"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
@@ -97,33 +97,3 @@ Not to be confused with the client’s gender identity (if present) which is an 
 * differential.element[9].min = 0
 * differential.element[9].max = "1"
 * differential.element[9].type.code = #CodeableConcept
-
-
-// MAPPING
-
-* differential.element[0].mapping[0].identity = "fhir"
-* differential.element[0].mapping[0].map = "Patient"
-
-* differential.element[1].mapping[0].identity = "fhir"
-* differential.element[1].mapping[0].map = "Patient.identifier"
-
-* differential.element[2].mapping[0].identity = "fhir"
-* differential.element[2].mapping[0].map = "Patient.name"
-
-* differential.element[3].mapping[0].identity = "fhir"
-* differential.element[3].mapping[0].map = "Patient.name.text"
-
-* differential.element[4].mapping[0].identity = "fhir"
-* differential.element[4].mapping[0].map = "Patient.name.given"
-
-* differential.element[5].mapping[0].identity = "fhir"
-* differential.element[5].mapping[0].map = "Patient.name.family"
-
-* differential.element[6].mapping[0].identity = "fhir"
-* differential.element[6].mapping[0].map = "Patient.gender"
-
-* differential.element[7].mapping[0].identity = "fhir"
-* differential.element[7].mapping[0].map = "Patient.birthDate"
-
-* differential.element[8].mapping[0].identity = "fhir"
-* differential.element[8].mapping[0].map = "Patient.extension"

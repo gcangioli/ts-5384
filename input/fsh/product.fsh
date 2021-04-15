@@ -28,57 +28,63 @@ Usage: #definition
 
 * differential.element[1].id = "Product.codeSet"
 * differential.element[1].path = "Product.codeSet"
-* differential.element[1].short = "Product code set"
-* differential.element[1].definition = "Codes that describe this product at different levels (e.g. package, medicinal product, pharmaceutical product, product cluster)"
+* differential.element[1].short = "Set of product codes"
+* differential.element[1].definition = "Set of codes that are used to identify this product."
 * differential.element[1].min = 0
 * differential.element[1].max = "1"
 * differential.element[1].type.code = #BackboneElement
 * differential.element[2].id = "Product.codeSet.productCode"
 * differential.element[2].path = "Product.codeSet.productCode"
 * differential.element[2].short = "Product code"
-* differential.element[2].definition = "Set of codes identifying a Virtual or an Authorized Packaged Medicinal Product (PC), Medicinal Product (MP) , Pharmaceutical Product (PhP) or other product codes."
+* differential.element[2].definition = "Code identifying this product.
+The code may represent different kinds of products: it might be an Authorized Packaged Medicinal Product, a Virtual Medicinal Product , a Pharmaceutical Product (PhP) , a cluster of products and so on.
+It might be a jurisdictional (e.g. sub-national, national), cross-jurisdictional (e.g. regional) or a global product code."
 * differential.element[2].min = 0
 * differential.element[2].max = "*"
 * differential.element[2].type.code = #CodeableConcept
 * differential.element[3].id = "Product.codeSet.PCID"
 * differential.element[3].path = "Product.codeSet.PCID"
 * differential.element[3].short = "IDMP PCID"
-* differential.element[3].definition = "Code identifying the IDMP Packaged Medicinal Product"
+* differential.element[3].definition = "Code identifying the IDMP Packaged Medicinal Product.
+A Packaged Medicinal Product is a 'Medicinal Product in a container being part of a package, representing the entirety that has been packaged for sale or supply' [source ISO 11615:2017]"
 * differential.element[3].min = 0
 * differential.element[3].max = "1"
 * differential.element[3].type.code = #CodeableConcept
 * differential.element[4].id = "Product.codeSet.MPID"
 * differential.element[4].path = "Product.codeSet.MPID"
 * differential.element[4].short = "IDMP MPID"
-* differential.element[4].definition = "Code identifying the IDMP Medicinal Product"
+* differential.element[4].definition = "Code identifying the IDMP Medicinal Product.
+A Medicinal Product is a 'pharmaceutical product or combination of pharmaceutical products that may be administered to human beings (or animals) for treating or preventing disease, with the aim/purpose of making a medical diagnosis or to restore, correct or modify physiological functions'  [source ISO 11615:2017]"
 * differential.element[4].min = 0
 * differential.element[4].max = "1"
 * differential.element[4].type.code = #CodeableConcept
 * differential.element[5].id = "Product.codeSet.PhPID"
 * differential.element[5].path = "Product.codeSet.PhPID"
 * differential.element[5].short = "IDMP PhP"
-* differential.element[5].definition = "Code identifying the IDMP Pharmaceutical Product"
+* differential.element[5].definition = "Code identifying the IDMP Pharmaceutical Product.
+A Pharmaceutical Product is a 'qualitative and quantitative composition of a Medicinal Product in the dose form approved for administration' [source ISO 11616:2017]"
 * differential.element[5].min = 0
 * differential.element[5].max = "*"
 * differential.element[5].type.code = #CodeableConcept
-* differential.element[6].id = "Product.identifier"
-* differential.element[6].path = "Product.identifier"
+* differential.element[6].id = "Product.packageIdentifiers"
+* differential.element[6].path = "Product.packageIdentifiers"
 * differential.element[6].short = "Set of identifiers"
 * differential.element[6].definition = "Identifiers typically related to the supply chain management, but often used also for other purposes as the fight against falsified and counterfeit medicines; adverse event reporting, and so on."
 * differential.element[6].min = 0
 * differential.element[6].max = "1"
 * differential.element[6].type.code = #BackboneElement
-* differential.element[7].id = "Product.identifier.dataCarrierIdentifier"
-* differential.element[7].path = "Product.identifier.dataCarrierIdentifier"
-* differential.element[7].short = "Data Carrier Identifier"
-* differential.element[7].definition = "Set of identifiers associated to this instance of the product. It could be a global (e.g. GTIN) or a national identifier. 
+* differential.element[7].id = "Product.packageIdentifiers.dataCarrierIdentifier"
+* differential.element[7].path = "Product.packageIdentifiers.dataCarrierIdentifier"
+* differential.element[7].short = "Data Carrier Identifier (e.g. GTIN)"
+* differential.element[7].definition = "Set of identifiers associated to this instance of the product.
+It could be a global (e.g. GTIN) or a national identifier. 
 The identifiers may refer to different package levels such as primary packaging or secondary packaging.
 The identifier of the lowest packaging should be captured."
 * differential.element[7].min = 0
 * differential.element[7].max = "*"
 * differential.element[7].type.code = #Identifier
-* differential.element[8].id = "Product.identifier.lotNumber"
-* differential.element[8].path = "Product.identifier.lotNumber"
+* differential.element[8].id = "Product.packageIdentifiers.lotNumber"
+* differential.element[8].path = "Product.packageIdentifiers.lotNumber"
 * differential.element[8].short = "Lot/Batch Number"
 * differential.element[8].definition = "The lot number of the Administrable Immunizing Agent, as assigned by the manufacturer."
 * differential.element[8].min = 0
@@ -100,8 +106,8 @@ The identifier of the lowest packaging should be captured."
 * differential.element[10].type.code = #BackboneElement
 * differential.element[11].id = "Product.composition.ingredient"
 * differential.element[11].path = "Product.composition.ingredient"
-* differential.element[11].short = "Ingredient"
-* differential.element[11].definition = "Information about the igredients composing this product"
+* differential.element[11].short = "Ingredient (e.g. antigen)"
+* differential.element[11].definition = "Information about the ingredients composing this product"
 * differential.element[11].min = 0
 * differential.element[11].max = "*"
 * differential.element[11].type.code = #BackboneElement
@@ -115,7 +121,11 @@ The identifier of the lowest packaging should be captured."
 * differential.element[13].id = "Product.composition.ingredient.substanceCode"
 * differential.element[13].path = "Product.composition.ingredient.substanceCode"
 * differential.element[13].short = "Substance code"
-* differential.element[13].definition = "Code identifying this substance / specified substance. When active it is the substance that triggers an immune response to a specific disease with a role of an antigen. Derivable from vaccine product."
+* differential.element[13].definition = "Code identifying this substance / specified substance. 
+A susbtance is 'any matter of defined composition that has discrete existence, whose origin may be biological, mineral or chemical' [source ISO 11616:2017]
+When active it is the substance that triggers an immune response to a specific disease with a role of an antigen. 
+Derivable from vaccine product.
+"
 * differential.element[13].min = 0
 * differential.element[13].max = "*"
 * differential.element[13].type.code = #CodeableConcept
@@ -135,7 +145,7 @@ The identifier of the lowest packaging should be captured."
 * differential.element[15].type.code = #Ratio
 * differential.element[16].id = "Product.composition.description"
 * differential.element[16].path = "Product.composition.description"
-* differential.element[16].short = "Textual Composition"
+* differential.element[16].short = "Composition (textual tescription)"
 * differential.element[16].definition = "Textual description of the product composition"
 * differential.element[16].min = 0
 * differential.element[16].max = "1"
@@ -154,3 +164,13 @@ The identifier of the lowest packaging should be captured."
 * differential.element[18].min = 0
 * differential.element[18].max = "1"
 * differential.element[18].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization
+* differential.element[18].id = "Product.expiryDate"
+* differential.element[18].path = "Product.expiryDate"
+* differential.element[18].short = "Expiry Date"
+* differential.element[18].definition = "Date, assigned to the Medicinal Immunizing Product by the manufacturer, after which the product should not be administered as product integrity cannot be guaranteed.  
+The Medicinal Immunizing Product, along with the Medicinal Immunizing Product Lot Number and Medicinal Immunizing Product Expiry Date, uniquely identifies an immunizing product. 
+A key variable in vaccine recalls because each lot number may have more than one expiry date.  
+Expiry date may be changed (reduced) due to a cold chain break. "
+* differential.element[18].min = 0
+* differential.element[18].max = "1"
+* differential.element[18].type.code = #date

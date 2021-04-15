@@ -8,7 +8,17 @@ provision of information and knowledge necessary to stakeholders using
 the registry to achieve the best possible immunization coverage for
 subjects.
 
-#### Reference Model
+#### Reference Models
+
+[**Immunization**](StructureDefinition-Immunization.html).
+
+This model uses the following specialized models:
+
+  - [Subject of Care](StructureDefinition-Subject-uc1.html)
+
+  - [Immunization Forecast](StructureDefinition-Forecast-uc1.html)
+
+  - Product
 
 ### Record a Current immunization event.
 
