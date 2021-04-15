@@ -92,7 +92,8 @@ This data element is required when the trade name is not known (such as a record
 * differential.element[8].definition = "Person that have or should have been vaccinated"
 * differential.element[8].min = 0
 * differential.element[8].max = "1"
-* differential.element[8].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject
+* differential.element[8].type[0].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject 
+* differential.element[8].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1
 * differential.element[9].id = "Immunization.product"
 * differential.element[9].path = "Immunization.product"
 * differential.element[9].short = "Medicinal Immunizing Product"
@@ -250,99 +251,3 @@ Example: Rash, Hives"
 * differential.element[29].min = 0
 * differential.element[29].max = "1"
 * differential.element[29].type.code = #markdown
-
-
-
-// MAPPING
-
-* differential.element[1].mapping[0].identity = "fhir"
-* differential.element[1].mapping[0].map = "Immunization.recorded"
-* differential.element[1].mapping[0].comment = "note"
-
-
-
-* differential.element[3].mapping[0].identity = "fhir"
-* differential.element[3].mapping[0].map = "Immunization.status"
-
-* differential.element[4].mapping[0].identity = "fhir"
-* differential.element[4].mapping[0].map = "Immunization.statusReason"
-
-* differential.element[5].mapping[0].identity = "fhir"
-* differential.element[5].mapping[0].map = "Immunization.reasonCode"
-
-* differential.element[6].mapping[0].identity = "fhir"
-* differential.element[6].mapping[0].map = "Immunization.protocolApplied.targetDisease"
-
-* differential.element[7].mapping[0].identity = "fhir"
-* differential.element[7].mapping[0].map = "Immunization.vaccineCode"
-
-* differential.element[8].mapping[0].identity = "fhir"
-* differential.element[8].mapping[0].map = "Immunization.patient"
-
-* differential.element[9].mapping[0].identity = "fhir"
-* differential.element[9].mapping[0].map = "Immunization.vaccineCode"
-
-* differential.element[10].mapping[0].identity = "fhir"
-* differential.element[10].mapping[0].map = "Immunization"
-
-
-
-
-* differential.element[12].mapping[0].identity = "fhir"
-* differential.element[12].mapping[0].map = "Immunization.occurrenceDateTime"
-
-
-
-
-* differential.element[14].mapping[0].identity = "fhir"
-* differential.element[14].mapping[0].map = "Immunization.doseQuantity"
-
-* differential.element[15].mapping[0].identity = "fhir"
-* differential.element[15].mapping[0].map = "Immunization.route"
-
-* differential.element[16].mapping[0].identity = "fhir"
-* differential.element[16].mapping[0].map = "Immunization.site"
-
-* differential.element[17].mapping[0].identity = "fhir"
-* differential.element[17].mapping[0].map = "Immunization.performer"
-
-* differential.element[18].mapping[0].identity = "fhir"
-* differential.element[18].mapping[0].map = "Immunization.performer"
-
-* differential.element[19].mapping[0].identity = "fhir"
-* differential.element[19].mapping[0].map = "Immunization.location"
-
-* differential.element[20].mapping[0].identity = "fhir"
-* differential.element[20].mapping[0].map = "Immunization.location"
-
-* differential.element[20].mapping[1].identity = "fhir"
-* differential.element[20].mapping[1].map = "Location.address.country"
-
-* differential.element[21].mapping[0].identity = "fhir"
-* differential.element[21].mapping[0].map = "Immunization.protocolApplied"
-
-* differential.element[22].mapping[0].identity = "fhir"
-* differential.element[22].mapping[0].map = "Immunization.protocolApplied.doseNumber[x]"
-
-* differential.element[23].mapping[0].identity = "fhir"
-* differential.element[23].mapping[0].map = "Immunization.protocolApplied.seriesDoses[x]"
-
-* differential.element[24].mapping[0].identity = "fhir"
-* differential.element[24].mapping[0].map = "Immunization.reaction"
-
-* differential.element[25].mapping[0].identity = "fhir"
-* differential.element[25].mapping[0].map = "Immunization.reaction.reported"
-
-* differential.element[26].mapping[0].identity = "fhir"
-* differential.element[26].mapping[0].map = "Immunization.reaction.date"
-
-* differential.element[27].mapping[0].identity = "fhir"
-* differential.element[27].mapping[0].map = "Immunization.reaction.detail"
-
-* differential.element[28].mapping[0].identity = "fhir"
-* differential.element[28].mapping[0].map = "ImmunizationRecommendation"
-
-* differential.element[29].mapping[0].identity = "fhir"
-* differential.element[29].mapping[0].map = "Immunization.note"
-
-
