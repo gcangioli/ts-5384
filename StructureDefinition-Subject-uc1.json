@@ -7,11 +7,11 @@
   },
   "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1",
   "version": "0.0.1",
-  "name": "SubjectUc1",
+  "name": "SubjectOfCareRegistry",
   "title": "Subject of Care - Registry Use Case",
   "status": "draft",
   "experimental": true,
-  "date": "2021-04-15T14:52:09+00:00",
+  "date": "2021-04-15T16:55:21+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -84,10 +84,6 @@
           {
             "identity": "rim",
             "map": "n/a"
-          },
-          {
-            "identity": "fhir",
-            "map": "Patient"
           }
         ]
       },
@@ -202,13 +198,7 @@
             "code": "Identifier"
           }
         ],
-        "mustSupport": true,
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.identifier"
-          }
-        ]
+        "mustSupport": true
       },
       {
         "id": "Subject.name",
@@ -227,13 +217,7 @@
             "code": "BackboneElement"
           }
         ],
-        "mustSupport": true,
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.name"
-          }
-        ]
+        "mustSupport": true
       },
       {
         "id": "Subject.name.fullName",
@@ -250,12 +234,6 @@
         "type": [
           {
             "code": "string"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.name.text"
           }
         ]
       },
@@ -275,12 +253,6 @@
           {
             "code": "string"
           }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.name.given"
-          }
         ]
       },
       {
@@ -299,12 +271,6 @@
           {
             "code": "string"
           }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.name.family"
-          }
         ]
       },
       {
@@ -322,12 +288,6 @@
         "type": [
           {
             "code": "CodeableConcept"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.gender"
           }
         ]
       },
@@ -348,13 +308,7 @@
             "code": "dateTime"
           }
         ],
-        "mustSupport": true,
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.birthDate"
-          }
-        ]
+        "mustSupport": true
       },
       {
         "id": "Subject.ethnicity",
@@ -371,12 +325,6 @@
         "type": [
           {
             "code": "CodeableConcept"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "Patient.extension"
           }
         ]
       },

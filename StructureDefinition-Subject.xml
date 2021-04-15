@@ -3,7 +3,7 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Subject"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Subject-definitions.html#Subject" title="Subject of care">Subject</a><a name="Subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Element">Element</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Subject of care</td></tr>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Subject-definitions.html#Subject" title="Subject of care">Subject</a><a name="Subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Element">Element</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">This is an abstract profile<br/>Subject of care</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Subject-definitions.html#Subject.identifier" title="The identifier used to identify the immunized person according to the policies applicable within the jurisdiction.">identifier</a><a name="Subject.identifier"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#Identifier">Identifier</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Person Identifier<br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Subject-definitions.html#Subject.name" title="The legal name of the immunized person">name</a><a name="Subject.name"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Person Name<br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <a href="StructureDefinition-Subject-definitions.html#Subject.name.fullName" title="Full Name">fullName</a><a name="Subject.name.fullName"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#string">string</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Full Name<br/></td></tr>
@@ -24,7 +24,7 @@ Not to be confused with the client’s gender identity (if present) which is an 
   <title value="Subject of Care"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-15T14:52:09+00:00"/>
+  <date value="2021-04-15T16:55:21+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -51,7 +51,7 @@ Not to be confused with the client’s gender identity (if present) which is an 
     <name value="RIM Mapping"/>
   </mapping>
   <kind value="logical"/>
-  <abstract value="false"/>
+  <abstract value="true"/>
   <type value="Subject"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
   <derivation value="specialization"/>
@@ -80,10 +80,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <mapping>
         <identity value="rim"/>
         <map value="n/a"/>
-      </mapping>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient"/>
       </mapping>
     </element>
     <element id="Subject.id">
@@ -173,10 +169,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="Identifier"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.identifier"/>
-      </mapping>
     </element>
     <element id="Subject.name">
       <path value="Subject.name"/>
@@ -192,10 +184,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name"/>
-      </mapping>
     </element>
     <element id="Subject.name.fullName">
       <path value="Subject.name.fullName"/>
@@ -211,10 +199,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name.text"/>
-      </mapping>
     </element>
     <element id="Subject.name.firstName">
       <path value="Subject.name.firstName"/>
@@ -230,10 +214,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name.given"/>
-      </mapping>
     </element>
     <element id="Subject.name.lastname">
       <path value="Subject.name.lastname"/>
@@ -249,10 +229,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name.family"/>
-      </mapping>
     </element>
     <element id="Subject.gender">
       <path value="Subject.gender"/>
@@ -268,10 +244,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.gender"/>
-      </mapping>
     </element>
     <element id="Subject.dateOfBirth">
       <path value="Subject.dateOfBirth"/>
@@ -287,10 +259,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.birthDate"/>
-      </mapping>
     </element>
     <element id="Subject.ethnicity">
       <path value="Subject.ethnicity"/>
@@ -306,10 +274,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.extension"/>
-      </mapping>
     </element>
     <element id="Subject.sex">
       <path value="Subject.sex"/>
@@ -334,10 +298,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <definition value="Subject of care"/>
       <min value="1"/>
       <max value="1"/>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient"/>
-      </mapping>
     </element>
     <element id="Subject.identifier">
       <path value="Subject.identifier"/>
@@ -348,10 +308,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="Identifier"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.identifier"/>
-      </mapping>
     </element>
     <element id="Subject.name">
       <path value="Subject.name"/>
@@ -362,10 +318,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name"/>
-      </mapping>
     </element>
     <element id="Subject.name.fullName">
       <path value="Subject.name.fullName"/>
@@ -376,10 +328,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name.text"/>
-      </mapping>
     </element>
     <element id="Subject.name.firstName">
       <path value="Subject.name.firstName"/>
@@ -390,10 +338,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name.given"/>
-      </mapping>
     </element>
     <element id="Subject.name.lastname">
       <path value="Subject.name.lastname"/>
@@ -404,10 +348,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.name.family"/>
-      </mapping>
     </element>
     <element id="Subject.gender">
       <path value="Subject.gender"/>
@@ -418,10 +358,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.gender"/>
-      </mapping>
     </element>
     <element id="Subject.dateOfBirth">
       <path value="Subject.dateOfBirth"/>
@@ -432,10 +368,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.birthDate"/>
-      </mapping>
     </element>
     <element id="Subject.ethnicity">
       <path value="Subject.ethnicity"/>
@@ -446,10 +378,6 @@ Not to be confused with the client’s gender identity (if present) which is an 
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Patient.extension"/>
-      </mapping>
     </element>
     <element id="Subject.sex">
       <path value="Subject.sex"/>

@@ -74,7 +74,7 @@
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1",
     "version": "0.0.1",
-    "name": "SubjectUc1"
+    "name": "SubjectOfCareRegistry"
   },
   {
     "id": "Vaccination",

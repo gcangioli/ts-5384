@@ -25,7 +25,7 @@ This data element must align and be used with the Immunization Forecast Date Typ
   <title value="Immunization Forecast"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-15T14:52:09+00:00"/>
+  <date value="2021-04-15T16:55:21+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>

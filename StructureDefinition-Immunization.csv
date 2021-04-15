@@ -64,10 +64,10 @@ It is important to record where the Medicinal Immunizing Product was delivered t
 ","Country of Immunization","The country in which the individual has been immunized person.","","","","","","","","","",,,,,"",,,,"Immunization.administration.country",0,1,"",""
 "Immunization.protocol","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Protocol applied","The protocol (set of recommendations) being followed by the provider who administered the dose.","","","","","","","","","",,,,,"",,,,"Immunization.protocol",0,1,"",""
-"Immunization.protocol.doseNumber","","","",0,1,"","","","BackboneElement {[]} {[]}
-","Dose Number","Dose Number","","","","","","","","","",,,,,"",,,,"Immunization.protocol.doseNumber",0,1,"",""
-"Immunization.protocol.seriesDoseNumber","","","",0,1,"","","","BackboneElement {[]} {[]}
-","Series Dose Number","Series Dose Number","","","","","","","","","",,,,,"",,,,"Immunization.protocol.seriesDoseNumber",0,1,"",""
+"Immunization.protocol.doseNumber","","","",0,1,"","","","integer {[]} {[]}
+string {[]} {[]}","Dose Number","Dose Number","","","","","","","","","",,,,,"",,,,"Immunization.protocol.doseNumber",0,1,"",""
+"Immunization.protocol.seriesDoseNumber","","","",0,1,"","","","integer {[]} {[]}
+string {[]} {[]}","Series Dose Number","Series Dose Number","","","","","","","","","",,,,,"",,,,"Immunization.protocol.seriesDoseNumber",0,1,"",""
 "Immunization.reaction","","","",0,*,"","","","BackboneElement {[]} {[]}
 ","Adverse Reaction","Adverse Reaction","","","","","","","","","",,,,,"",,,,"Immunization.reaction",0,*,"",""
 "Immunization.reaction.reported","","","",0,1,"","","","boolean {[]} {[]}
