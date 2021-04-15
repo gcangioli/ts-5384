@@ -1,17 +1,20 @@
 ﻿IsoTs5384 : Validation Results
 =========================================
 
-err = 0, warn = 6, info = 0
-IG Publisher Version: 1.1.65
-Generated Mon Apr 12 10:07:33 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
+err = 2, warn = 6, info = 0
+IG Publisher Version: 1.1.66
+Generated Thu Apr 15 14:52:26 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
 
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-Forecast : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Forecast-uc1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-HealthProfessional : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Immunization : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc1 : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Product : 0 / 6 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-SimpleOrganization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Subject : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Subject-uc1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Vaccination : 0 / 0 / 1
  /github/workspace/input/ig-iso-5384 : 0 / 0 / 1
  /github/workspace/input/terminologies/codesystem-conformance-cen-ips : 0 / 0 / 1
@@ -20,10 +23,16 @@ Generated Mon Apr 12 10:07:33 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0
 == n/a ==
 == /github/workspace/fsh-generated/resources/StructureDefinition-Forecast.json ==
 INFORMATION: StructureDefinition/Forecast: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Forecast-uc1.json ==
+INFORMATION: StructureDefinition/Forecast-uc1: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-HealthProfessional.json ==
 INFORMATION: StructureDefinition/HealthProfessional: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-Immunization.json ==
 INFORMATION: StructureDefinition/Immunization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc1.json ==
+ERROR: Immunization: Registry Use Case.Immunization.subject: Element Immunization.subject: derived max (*) cannot be greater than base max (1)
+INFORMATION: StructureDefinition/Immunization-uc1: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/Immunization-uc1: StructureDefinition: Element Immunization.subject: derived max (*) cannot be greater than base max (1)
 == /github/workspace/fsh-generated/resources/StructureDefinition-Product.json ==
 INFORMATION: StructureDefinition/Product: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Product: StructureDefinition.snapshot.element[5]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed
@@ -36,6 +45,8 @@ WARNING: StructureDefinition/Product: StructureDefinition.differential.element[5
 INFORMATION: StructureDefinition/SimpleOrganization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-Subject.json ==
 INFORMATION: StructureDefinition/Subject: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Subject-uc1.json ==
+INFORMATION: StructureDefinition/Subject-uc1: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-Vaccination.json ==
 INFORMATION: StructureDefinition/Vaccination: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/input/ig-iso-5384.xml ==

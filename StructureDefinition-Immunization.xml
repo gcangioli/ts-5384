@@ -17,7 +17,9 @@ The disease can be derived or inferred from the Immunizing Agent and/or Medicina
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Immunization-definitions.html#Immunization.vaccineType" title="Generic representation of the formulation administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s). 
 The values to support this data element include both active immunizing agents/ vaccines (e.g. Hepatitis A +B Vaccine), and passive immunizing agents, (e.g., Rabies Immunoglobulin).   The values may be high level (COVID 19 Vaccine) or more detailed (COVID-19 mRNA Vaccine)
 This data element is required when the trade name is not known (such as a recording of an immunizing event that took place in the past) Because the Immunizing Agent can be derived from Medicinal Immunizing Product it is optional IF the Administrable Immunizing Agent is provided.">vaccineType</a><a name="Immunization.vaccineType"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Vaccine type (prophylaxis, generic immunizing Agent)<br/></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-Immunization-definitions.html#Immunization.subject" title="Person that have or should have been vaccinated">subject</a><a name="Immunization.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Subject.html">Subject</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Subject</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_choice.gif" alt="." style="background-color: white; background-color: inherit" title="Choice of Types" class="hierarchy"/> <a href="StructureDefinition-Immunization-definitions.html#Immunization.subject" title="Person that have or should have been vaccinated">subject</a><a name="Immunization.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Subject</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <span title="Subject vaccinated">subject</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Subject.html">Subject</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span title="Data Model for the 'Populate an Immunization Registry'">subject</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Subject-uc1.html">Subject</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-Immunization-definitions.html#Immunization.product" title="A manufactured product that is a representation of a brand specific Immunizing Agent authorized for use in a jurisdiction.  
 The values to support this data element include both active immunizing agents/ vaccines (e.g., Hepatitis A +B Vaccine, and passive immunizing agents, (e.g., Rabies Immunoglobulin). 
 The values may include ONLY the trade name of the product or a complete description of the product that may include the immunizing agent+dose form+trade name (or other attributes to distinguish the product.">product</a><a name="Immunization.product"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Product.html">Product</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Medicinal Immunizing Product<br/></td></tr>
@@ -57,7 +59,7 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
   <title value="ISO TS 5384 data model (new)"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-12T10:07:21+00:00"/>
+  <date value="2021-04-15T14:52:09+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -202,11 +204,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.recorded"/>
-        <comment value="note"/>
-      </mapping>
     </element>
     <element id="Immunization.source">
       <path value="Immunization.source"/>
@@ -237,10 +234,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="boolean"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.status"/>
-      </mapping>
     </element>
     <element id="Immunization.reasonNotGiven">
       <path value="Immunization.reasonNotGiven"/>
@@ -256,10 +249,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.statusReason"/>
-      </mapping>
     </element>
     <element id="Immunization.indication">
       <path value="Immunization.indication"/>
@@ -275,10 +264,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reasonCode"/>
-      </mapping>
     </element>
     <element id="Immunization.targetDisease">
       <path value="Immunization.targetDisease"/>
@@ -294,10 +279,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied.targetDisease"/>
-      </mapping>
     </element>
     <element id="Immunization.vaccineType">
       <path value="Immunization.vaccineType"/>
@@ -313,10 +294,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.vaccineCode"/>
-      </mapping>
     </element>
     <element id="Immunization.subject">
       <path value="Immunization.subject"/>
@@ -332,10 +309,9 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Subject"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.patient"/>
-      </mapping>
+      <type>
+        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1"/>
+      </type>
     </element>
     <element id="Immunization.product">
       <path value="Immunization.product"/>
@@ -351,10 +327,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Product"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.vaccineCode"/>
-      </mapping>
     </element>
     <element id="Immunization.administration">
       <path value="Immunization.administration"/>
@@ -370,10 +342,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.date">
       <path value="Immunization.administration.date"/>
@@ -404,10 +372,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.occurrenceDateTime"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.date.estimated">
       <path value="Immunization.administration.date.estimated"/>
@@ -438,10 +402,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="Quantity"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.doseQuantity"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.routeOfAdministration">
       <path value="Immunization.administration.routeOfAdministration"/>
@@ -457,10 +417,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.route"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.site">
       <path value="Immunization.administration.site"/>
@@ -476,10 +432,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.site"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.performer">
       <path value="Immunization.administration.performer"/>
@@ -495,10 +447,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.performer"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.administrationCenter">
       <path value="Immunization.administration.administrationCenter"/>
@@ -514,10 +462,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.performer"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.location">
       <path value="Immunization.administration.location"/>
@@ -533,10 +477,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="Location"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.location"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.country">
       <path value="Immunization.administration.country"/>
@@ -552,14 +492,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.location"/>
-      </mapping>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Location.address.country"/>
-      </mapping>
     </element>
     <element id="Immunization.protocol">
       <path value="Immunization.protocol"/>
@@ -575,10 +507,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied"/>
-      </mapping>
     </element>
     <element id="Immunization.protocol.doseNumber">
       <path value="Immunization.protocol.doseNumber"/>
@@ -594,10 +522,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied.doseNumber[x]"/>
-      </mapping>
     </element>
     <element id="Immunization.protocol.seriesDoseNumber">
       <path value="Immunization.protocol.seriesDoseNumber"/>
@@ -613,10 +537,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied.seriesDoses[x]"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction">
       <path value="Immunization.reaction"/>
@@ -632,10 +552,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction.reported">
       <path value="Immunization.reaction.reported"/>
@@ -651,10 +567,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="boolean"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction.reported"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction.date">
       <path value="Immunization.reaction.date"/>
@@ -670,10 +582,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction.date"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction.manifestation">
       <path value="Immunization.reaction.manifestation"/>
@@ -689,10 +597,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction.detail"/>
-      </mapping>
     </element>
     <element id="Immunization.forecast">
       <path value="Immunization.forecast"/>
@@ -708,10 +612,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Forecast"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation"/>
-      </mapping>
     </element>
     <element id="Immunization.notes">
       <path value="Immunization.notes"/>
@@ -727,10 +627,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="markdown"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.note"/>
-      </mapping>
     </element>
   </snapshot>
   <differential>
@@ -750,11 +646,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.recorded"/>
-        <comment value="note"/>
-      </mapping>
     </element>
     <element id="Immunization.source">
       <path value="Immunization.source"/>
@@ -775,10 +666,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="boolean"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.status"/>
-      </mapping>
     </element>
     <element id="Immunization.reasonNotGiven">
       <path value="Immunization.reasonNotGiven"/>
@@ -789,10 +676,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.statusReason"/>
-      </mapping>
     </element>
     <element id="Immunization.indication">
       <path value="Immunization.indication"/>
@@ -803,10 +686,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reasonCode"/>
-      </mapping>
     </element>
     <element id="Immunization.targetDisease">
       <path value="Immunization.targetDisease"/>
@@ -817,10 +696,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied.targetDisease"/>
-      </mapping>
     </element>
     <element id="Immunization.vaccineType">
       <path value="Immunization.vaccineType"/>
@@ -831,10 +706,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.vaccineCode"/>
-      </mapping>
     </element>
     <element id="Immunization.subject">
       <path value="Immunization.subject"/>
@@ -845,10 +716,9 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Subject"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.patient"/>
-      </mapping>
+      <type>
+        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1"/>
+      </type>
     </element>
     <element id="Immunization.product">
       <path value="Immunization.product"/>
@@ -859,10 +729,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Product"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.vaccineCode"/>
-      </mapping>
     </element>
     <element id="Immunization.administration">
       <path value="Immunization.administration"/>
@@ -873,10 +739,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.date">
       <path value="Immunization.administration.date"/>
@@ -897,10 +759,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.occurrenceDateTime"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.date.estimated">
       <path value="Immunization.administration.date.estimated"/>
@@ -921,10 +779,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="Quantity"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.doseQuantity"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.routeOfAdministration">
       <path value="Immunization.administration.routeOfAdministration"/>
@@ -935,10 +789,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.route"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.site">
       <path value="Immunization.administration.site"/>
@@ -949,10 +799,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.site"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.performer">
       <path value="Immunization.administration.performer"/>
@@ -963,10 +809,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.performer"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.administrationCenter">
       <path value="Immunization.administration.administrationCenter"/>
@@ -977,10 +819,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.performer"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.location">
       <path value="Immunization.administration.location"/>
@@ -991,10 +829,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="Location"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.location"/>
-      </mapping>
     </element>
     <element id="Immunization.administration.country">
       <path value="Immunization.administration.country"/>
@@ -1005,14 +839,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.location"/>
-      </mapping>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Location.address.country"/>
-      </mapping>
     </element>
     <element id="Immunization.protocol">
       <path value="Immunization.protocol"/>
@@ -1023,10 +849,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied"/>
-      </mapping>
     </element>
     <element id="Immunization.protocol.doseNumber">
       <path value="Immunization.protocol.doseNumber"/>
@@ -1037,10 +859,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied.doseNumber[x]"/>
-      </mapping>
     </element>
     <element id="Immunization.protocol.seriesDoseNumber">
       <path value="Immunization.protocol.seriesDoseNumber"/>
@@ -1051,10 +869,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.protocolApplied.seriesDoses[x]"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction">
       <path value="Immunization.reaction"/>
@@ -1065,10 +879,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction.reported">
       <path value="Immunization.reaction.reported"/>
@@ -1079,10 +889,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="boolean"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction.reported"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction.date">
       <path value="Immunization.reaction.date"/>
@@ -1093,10 +899,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction.date"/>
-      </mapping>
     </element>
     <element id="Immunization.reaction.manifestation">
       <path value="Immunization.reaction.manifestation"/>
@@ -1107,10 +909,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.reaction.detail"/>
-      </mapping>
     </element>
     <element id="Immunization.forecast">
       <path value="Immunization.forecast"/>
@@ -1121,10 +919,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Forecast"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation"/>
-      </mapping>
     </element>
     <element id="Immunization.notes">
       <path value="Immunization.notes"/>
@@ -1135,10 +929,6 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
       <type>
         <code value="markdown"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="Immunization.note"/>
-      </mapping>
     </element>
   </differential>
 </StructureDefinition>

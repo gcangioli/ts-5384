@@ -21,6 +21,13 @@
     "name": "ImmunizationForecast"
   },
   {
+    "id": "Forecast-uc1",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1",
+    "version": "0.0.1",
+    "name": "ImmunizationForecastUc1"
+  },
+  {
     "id": "HealthProfessional",
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional",
@@ -33,6 +40,13 @@
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization",
     "version": "0.0.1",
     "name": "Immunization"
+  },
+  {
+    "id": "Immunization-uc1",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc1",
+    "version": "0.0.1",
+    "name": "ImmunizationUc1"
   },
   {
     "id": "Product",
@@ -54,6 +68,13 @@
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Subject",
     "version": "0.0.1",
     "name": "SubjectOfCare"
+  },
+  {
+    "id": "Subject-uc1",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1",
+    "version": "0.0.1",
+    "name": "SubjectUc1"
   },
   {
     "id": "Vaccination",

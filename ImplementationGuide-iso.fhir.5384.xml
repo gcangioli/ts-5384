@@ -12,7 +12,7 @@
   <title value="ISO TS 5384 Immunization FHIR Logical Models"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-12T10:07:21+00:00"/>
+  <date value="2021-04-15T14:52:09+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -256,6 +256,16 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/Forecast-uc1"/>
+      </reference>
+      <name value="Immunization Forecast - Registry Use Case"/>
+      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/SimpleOrganization"/>
       </reference>
       <name value="Simple Organization"/>
@@ -280,6 +290,26 @@
       </reference>
       <name value="ISO TS 5384 data model (new)"/>
       <description value="ISO TS 5384 data model"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Immunization-uc1"/>
+      </reference>
+      <name value="Immunization: Registry Use Case"/>
+      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Subject-uc1"/>
+      </reference>
+      <name value="Subject of Care - Registry Use Case"/>
+      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
