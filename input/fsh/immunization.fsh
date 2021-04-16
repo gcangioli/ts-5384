@@ -52,18 +52,18 @@ Confidence in the accuracy of the immunization record is dependant on the source
 * differential.element[3].definition = "Provides the status of the immunization event, i.e., was the vaccine dose administered?
 Metadata needed for an interoperability message. Not required at user interface."
 * differential.element[3].min = 0
-* differential.element[3].max = "*"
-* differential.element[3].type.code = #boolean
+* differential.element[3].max = "1"
+* differential.element[3].type.code = #CodeableConcept
 * differential.element[4].id = "Immunization.reasonNotGiven"
 * differential.element[4].path = "Immunization.reasonNotGiven"
-* differential.element[4].short = "Reason not done [ADDED]"
+* differential.element[4].short = "Reason not done"
 * differential.element[4].definition = "Indicates the reason the immunization event was not performed."
 * differential.element[4].min = 0
 * differential.element[4].max = "*"
 * differential.element[4].type.code = #CodeableConcept
 * differential.element[5].id = "Immunization.indication"
 * differential.element[5].path = "Immunization.indication"
-* differential.element[5].short = "Why immunization occurred [ADDED]"
+* differential.element[5].short = "Why immunization occurred"
 * differential.element[5].definition = "Indicates the reason the immunization event was performed."
 * differential.element[5].min = 0
 * differential.element[5].max = "*"
@@ -77,9 +77,9 @@ The disease can be derived or inferred from the Immunizing Agent and/or Medicina
 * differential.element[6].min = 0
 * differential.element[6].max = "*"
 * differential.element[6].type.code = #CodeableConcept
-* differential.element[7].id = "Immunization.vaccineType"
-* differential.element[7].path = "Immunization.vaccineType"
-* differential.element[7].short = "Vaccine type (prophylaxis, generic immunizing Agent)"
+* differential.element[7].id = "Immunization.immunizingAgent"
+* differential.element[7].path = "Immunization.immunizingAgent"
+* differential.element[7].short = "Generic immunizing Agent (Vaccine type, prophylaxis)"
 * differential.element[7].definition = "Generic representation of the formulation administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s). 
 The values to support this data element include both active immunizing agents/ vaccines (e.g. Hepatitis A +B Vaccine), and passive immunizing agents, (e.g., Rabies Immunoglobulin).   The values may be high level (COVID 19 Vaccine) or more detailed (COVID-19 mRNA Vaccine)
 This data element is required when the trade name is not known (such as a recording of an immunizing event that took place in the past) Because the Immunizing Agent can be derived from Medicinal Immunizing Product it is optional IF the Administrable Immunizing Agent is provided."
@@ -102,7 +102,8 @@ The values to support this data element include both active immunizing agents/ v
 The values may include ONLY the trade name of the product or a complete description of the product that may include the immunizing agent+dose form+trade name (or other attributes to distinguish the product."
 * differential.element[9].min = 0
 * differential.element[9].max = "*"
-* differential.element[9].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product
+* differential.element[9].type[0].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product 
+* differential.element[9].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1
 * differential.element[10].id = "Immunization.administration"
 * differential.element[10].path = "Immunization.administration"
 * differential.element[10].short = "Immunization Administration"
@@ -198,16 +199,14 @@ It is important to record where the Medicinal Immunizing Product was delivered t
 * differential.element[22].definition = "Dose Number"
 * differential.element[22].min = 0
 * differential.element[22].max = "1"
-* differential.element[22].type[0].code = #integer
-* differential.element[22].type[1].code = #string
+* differential.element[22].type.code = #integer
 * differential.element[23].id = "Immunization.protocol.seriesDoseNumber"
 * differential.element[23].path = "Immunization.protocol.seriesDoseNumber"
 * differential.element[23].short = "Series Dose Number"
 * differential.element[23].definition = "Series Dose Number"
 * differential.element[23].min = 0
 * differential.element[23].max = "1"
-* differential.element[23].type[0].code = #integer
-* differential.element[23].type[1].code = #string
+* differential.element[23].type.code = #integer
 * differential.element[24].id = "Immunization.reaction"
 * differential.element[24].path = "Immunization.reaction"
 * differential.element[24].short = "Adverse Reaction"
@@ -245,7 +244,8 @@ Example: Rash, Hives"
 * differential.element[28].definition = "Subject's immunization forecast"
 * differential.element[28].min = 0
 * differential.element[28].max = "1"
-* differential.element[28].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast
+* differential.element[28].type[0].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast 
+* differential.element[28].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1
 * differential.element[29].id = "Immunization.notes"
 * differential.element[29].path = "Immunization.notes"
 * differential.element[29].short = "Additional information relevant to the immunization record."
@@ -253,3 +253,93 @@ Example: Rash, Hives"
 * differential.element[29].min = 0
 * differential.element[29].max = "1"
 * differential.element[29].type.code = #markdown
+"// === MAPPING ===" 
+* differential.element[1].mapping[0].identity = "fhir"
+* differential.element[1].mapping[0].map = "Immunization.recorded"
+* differential.element[1].mapping[0].comment = "note"
+
+
+
+* differential.element[3].mapping[0].identity = "fhir"
+* differential.element[3].mapping[0].map = "Immunization.status"
+
+* differential.element[4].mapping[0].identity = "fhir"
+* differential.element[4].mapping[0].map = "Immunization.statusReason"
+
+* differential.element[5].mapping[0].identity = "fhir"
+* differential.element[5].mapping[0].map = "Immunization.reasonCode"
+
+* differential.element[6].mapping[0].identity = "fhir"
+* differential.element[6].mapping[0].map = "Immunization.protocolApplied.targetDisease"
+
+* differential.element[7].mapping[0].identity = "fhir"
+* differential.element[7].mapping[0].map = "Immunization.vaccineCode"
+
+* differential.element[8].mapping[0].identity = "fhir"
+* differential.element[8].mapping[0].map = "Immunization.patient"
+
+* differential.element[9].mapping[0].identity = "fhir"
+* differential.element[9].mapping[0].map = "Immunization.vaccineCode"
+
+* differential.element[10].mapping[0].identity = "fhir"
+* differential.element[10].mapping[0].map = "Immunization"
+
+
+
+
+* differential.element[12].mapping[0].identity = "fhir"
+* differential.element[12].mapping[0].map = "Immunization.occurrenceDateTime"
+
+
+
+
+* differential.element[14].mapping[0].identity = "fhir"
+* differential.element[14].mapping[0].map = "Immunization.doseQuantity"
+
+* differential.element[15].mapping[0].identity = "fhir"
+* differential.element[15].mapping[0].map = "Immunization.route"
+
+* differential.element[16].mapping[0].identity = "fhir"
+* differential.element[16].mapping[0].map = "Immunization.site"
+
+* differential.element[17].mapping[0].identity = "fhir"
+* differential.element[17].mapping[0].map = "Immunization.performer"
+
+* differential.element[18].mapping[0].identity = "fhir"
+* differential.element[18].mapping[0].map = "Immunization.performer"
+
+* differential.element[19].mapping[0].identity = "fhir"
+* differential.element[19].mapping[0].map = "Immunization.location"
+
+* differential.element[20].mapping[0].identity = "fhir"
+* differential.element[20].mapping[0].map = "Immunization.location"
+
+* differential.element[20].mapping[1].identity = "fhir"
+* differential.element[20].mapping[1].map = "Location.address.country"
+
+* differential.element[21].mapping[0].identity = "fhir"
+* differential.element[21].mapping[0].map = "Immunization.protocolApplied"
+
+* differential.element[22].mapping[0].identity = "fhir"
+* differential.element[22].mapping[0].map = "Immunization.protocolApplied.doseNumber[x]"
+
+* differential.element[23].mapping[0].identity = "fhir"
+* differential.element[23].mapping[0].map = "Immunization.protocolApplied.seriesDoses[x]"
+
+* differential.element[24].mapping[0].identity = "fhir"
+* differential.element[24].mapping[0].map = "Immunization.reaction"
+
+* differential.element[25].mapping[0].identity = "fhir"
+* differential.element[25].mapping[0].map = "Immunization.reaction.reported"
+
+* differential.element[26].mapping[0].identity = "fhir"
+* differential.element[26].mapping[0].map = "Immunization.reaction.date"
+
+* differential.element[27].mapping[0].identity = "fhir"
+* differential.element[27].mapping[0].map = "Immunization.reaction.detail"
+
+* differential.element[28].mapping[0].identity = "fhir"
+* differential.element[28].mapping[0].map = "ImmunizationRecommendation"
+
+* differential.element[29].mapping[0].identity = "fhir"
+* differential.element[29].mapping[0].map = "Immunization.note"

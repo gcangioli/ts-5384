@@ -9,6 +9,9 @@ REM pandoc %in_dir%\metodologia.docx -t commonmark -f docx -o %pub_dir%\methodol
 REM pandoc %in_dir%\design.docx -t commonmark -f docx -o %pub_dir%\design.md
 REM pandoc %in_dir%\copyright.docx -t commonmark -f docx -o %pub_dir%\copyright.md
 fart %pub_dir%\index.md media/image home-
+fart %pub_dir%\useCases.md \<td\>\<a href=\"StructureDefinition-Immunization.html\"\> \<td style=\"background-color:powderblue;\"\>\<a href=\"StructureDefinition-Immunization.html\"\>
+
+
 REM fart %pub_dir%\methodology.md media/image method-
 REM fart %pub_dir%\design.md media/image design-
 

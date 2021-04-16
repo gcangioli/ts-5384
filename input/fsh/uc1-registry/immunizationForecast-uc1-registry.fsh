@@ -13,29 +13,16 @@ Usage: #definition
 * experimental = true
 * description = "Data Model for the 'Populate an Immunization Registry'"
 * version = "0.0.1"
-
-
-
-
-
 * kind = #logical
 * abstract = false
 * type = "Forecast"
 * baseDefinition = "http://iso.org/fhir/ts-5384/StructureDefinition/Forecast"
 * derivation = #constraint
 
-
-
-
-
-
-
-
 * differential.element[0].id = "Forecast.status"
 * differential.element[0].path = "Forecast.status"
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
-
 * differential.element[0].mustSupport = true
 * differential.element[1].id = "Forecast.description"
 * differential.element[1].path = "Forecast.description"

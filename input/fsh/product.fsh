@@ -164,13 +164,13 @@ Derivable from vaccine product.
 * differential.element[18].min = 0
 * differential.element[18].max = "1"
 * differential.element[18].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization
-* differential.element[18].id = "Product.expiryDate"
-* differential.element[18].path = "Product.expiryDate"
-* differential.element[18].short = "Expiry Date"
-* differential.element[18].definition = "Date, assigned to the Medicinal Immunizing Product by the manufacturer, after which the product should not be administered as product integrity cannot be guaranteed.  
+* differential.element[19].id = "Product.expiryDate"
+* differential.element[19].path = "Product.expiryDate"
+* differential.element[19].short = "Expiry Date"
+* differential.element[19].definition = "Date, assigned to the Medicinal Immunizing Product by the manufacturer, after which the product should not be administered as product integrity cannot be guaranteed.  
 The Medicinal Immunizing Product, along with the Medicinal Immunizing Product Lot Number and Medicinal Immunizing Product Expiry Date, uniquely identifies an immunizing product. 
 A key variable in vaccine recalls because each lot number may have more than one expiry date.  
 Expiry date may be changed (reduced) due to a cold chain break. "
-* differential.element[18].min = 0
-* differential.element[18].max = "1"
-* differential.element[18].type.code = #date
+* differential.element[19].min = 0
+* differential.element[19].max = "1"
+* differential.element[19].type.code = #date

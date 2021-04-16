@@ -10,15 +10,20 @@ subjects.
 
 #### Reference Models
 
-[**Immunization**](StructureDefinition-Immunization.html).
-
-This model uses the following specialized models:
-
-  - [Subject of Care](StructureDefinition-Subject-uc1.html)
-
-  - [Immunization Forecast](StructureDefinition-Forecast-uc1.html)
-
-  - Product
+<table>
+<tbody>
+<tr class="odd">
+<td style="background-color:powderblue;"><a href="StructureDefinition-Immunization.html"><strong>Immunization</strong></a></td>
+<td></td>
+<td><p>This model uses the following specialized models:</p>
+<ul>
+<li><p><a href="StructureDefinition-Subject-uc1.html">Subject of Care</a></p></li>
+<li><p><a href="StructureDefinition-Immunization-uc1.html">Immunization Forecast</a></p></li>
+<li><p><a href="StructureDefinition-Product-uc1.html">Product</a></p></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 ### Record a Current immunization event.
 
