@@ -69,5 +69,5 @@ Usage: #definition
 * differential.element[11].path = "Immunization.forecast"
 * differential.element[11].min = 1
 * differential.element[11].max = "1"
-// * differential.element[11].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1
+* differential.element[11].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1
 * differential.element[11].mustSupport = true
