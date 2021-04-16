@@ -12,7 +12,7 @@
   <title value="ISO TS 5384 Immunization FHIR Logical Models"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-15T16:55:21+00:00"/>
+  <date value="2021-04-16T19:28:29+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -216,16 +216,6 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccination"/>
-      </reference>
-      <name value="ISO TS 5384 data model"/>
-      <description value="ISO TS 5384 data model"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/Product"/>
       </reference>
       <name value="Product"/>
@@ -240,6 +230,16 @@
       </reference>
       <name value="Subject of Care"/>
       <description value="Subject vaccinated"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Product-uc1"/>
+      </reference>
+      <name value="Product - Registry Use Case"/>
+      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -298,7 +298,7 @@
       <reference>
         <reference value="StructureDefinition/Immunization-uc1"/>
       </reference>
-      <name value="Immunization: Registry Use Case"/>
+      <name value="UC1: Registry Use Case"/>
       <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
     </resource>
     <resource>

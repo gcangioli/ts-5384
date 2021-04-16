@@ -11,7 +11,7 @@
   "title": "ISO TS 5384 Immunization FHIR Logical Models",
   "status": "draft",
   "experimental": true,
-  "date": "2021-04-15T16:55:21+00:00",
+  "date": "2021-04-16T19:28:29+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -337,19 +337,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccination"
-        },
-        "name": "ISO TS 5384 data model",
-        "description": "ISO TS 5384 data model"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/Product"
         },
         "name": "Product",
@@ -367,6 +354,19 @@
         },
         "name": "Subject of Care",
         "description": "Subject vaccinated"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Product-uc1"
+        },
+        "name": "Product - Registry Use Case",
+        "description": "Data Model for the 'Populate an Immunization Registry'"
       },
       {
         "extension": [
@@ -443,7 +443,7 @@
         "reference": {
           "reference": "StructureDefinition/Immunization-uc1"
         },
-        "name": "Immunization: Registry Use Case",
+        "name": "UC1: Registry Use Case",
         "description": "Data Model for the 'Populate an Immunization Registry'"
       },
       {

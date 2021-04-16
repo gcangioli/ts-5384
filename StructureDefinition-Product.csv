@@ -55,6 +55,8 @@ Derivable from vaccine product.
 ","Composition (textual tescription)","Textual description of the product composition","","","","","","","","","",,,,,"",,,,"Product.composition.description",0,1,"",""
 "Product.marketAuthorizationHolder","","","",0,1,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization {[]} {[]}
 ","Market Authorization Holder (MAH)","the organisation that holds the authorisation for marketing a Medicinal Product in a region","","","","","","","","","",,,,,"",,,,"Product.marketAuthorizationHolder",0,1,"",""
+"Product.manufacturer","","","",0,1,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization {[]} {[]}
+","manufacturer","Organisation that holds the authorisation for the manufacturing process","","","","","","","","","",,,,,"",,,,"Product.manufacturer",0,1,"",""
 "Product.expiryDate","","","",0,1,"","","","date {[]} {[]}
 ","Expiry Date","Date, assigned to the Medicinal Immunizing Product by the manufacturer, after which the product should not be administered as product integrity cannot be guaranteed.  
 The Medicinal Immunizing Product, along with the Medicinal Immunizing Product Lot Number and Medicinal Immunizing Product Expiry Date, uniquely identifies an immunizing product. 

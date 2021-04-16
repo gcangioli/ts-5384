@@ -5,7 +5,9 @@
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization">Immunization</a><a name="Immunization"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Immunization.html">Immunization</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Immunization</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.source">source</a><a name="Immunization.source"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Immunization Reporting Source</span><br/></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.subject">subject</a><a name="Immunization.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Subject-uc1.html">Subject</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Subject</span><br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.targetDisease">targetDisease</a><a name="Immunization.targetDisease"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Vaccine Preventable Disease</span><br/></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.subject">subject</a><a name="Immunization.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Subject-uc1.html">Subject</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Subject</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.product">product</a><a name="Immunization.product"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..*</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Product-uc1.html">Product</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Medicinal Immunizing Product</span><br/></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.administration">administration</a><a name="Immunization.administration"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.administration.routeOfAdministration">routeOfAdministration</a><a name="Immunization.administration.routeOfAdministration"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Immunization Route of Administration</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.administration.site">site</a><a name="Immunization.administration.site"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Immunization Anatomical Site</span></td></tr>
@@ -17,16 +19,16 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.reaction.reported">reported</a><a name="Immunization.reaction.reported"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Adverse Reaction Following Immunization</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.reaction.date">date</a><a name="Immunization.reaction.date"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Adverse Reaction date</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.reaction.manifestation">manifestation</a><a name="Immunization.reaction.manifestation"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#BackboneElement">BackboneElement</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Adverse Reaction manifestation</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.forecast">forecast</a><a name="Immunization.forecast"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="StructureDefinition-Forecast.html">Forecast</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Subject's immunization forecast</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-Immunization-uc1-definitions.html#Immunization.forecast">forecast</a><a name="Immunization.forecast"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="StructureDefinition-Forecast-uc1.html">Forecast</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Subject's immunization forecast</span></td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc1"/>
   <version value="0.0.1"/>
   <name value="ImmunizationUc1"/>
-  <title value="Immunization: Registry Use Case"/>
+  <title value="UC1: Registry Use Case"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-15T16:55:21+00:00"/>
+  <date value="2021-04-16T19:28:29+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -171,6 +173,11 @@
       <type>
         <code value="dateTime"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.recorded"/>
+        <comment value="note"/>
+      </mapping>
     </element>
     <element id="Immunization.source">
       <path value="Immunization.source"/>
@@ -192,19 +199,23 @@
       <short value="Immunization Administration Status"/>
       <definition value="Provides the status of the immunization event, i.e., was the vaccine dose administered?&#xA;Metadata needed for an interoperability message. Not required at user interface."/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <base>
         <path value="Immunization.status"/>
         <min value="0"/>
-        <max value="*"/>
+        <max value="1"/>
       </base>
       <type>
-        <code value="boolean"/>
+        <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.status"/>
+      </mapping>
     </element>
     <element id="Immunization.reasonNotGiven">
       <path value="Immunization.reasonNotGiven"/>
-      <short value="Reason not done [ADDED]"/>
+      <short value="Reason not done"/>
       <definition value="Indicates the reason the immunization event was not performed."/>
       <min value="0"/>
       <max value="*"/>
@@ -216,10 +227,14 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.statusReason"/>
+      </mapping>
     </element>
     <element id="Immunization.indication">
       <path value="Immunization.indication"/>
-      <short value="Why immunization occurred [ADDED]"/>
+      <short value="Why immunization occurred"/>
       <definition value="Indicates the reason the immunization event was performed."/>
       <min value="0"/>
       <max value="*"/>
@@ -231,12 +246,16 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.reasonCode"/>
+      </mapping>
     </element>
     <element id="Immunization.targetDisease">
       <path value="Immunization.targetDisease"/>
       <short value="Vaccine Preventable Disease"/>
       <definition value="The disease that the vaccination provides protection against.&#xA;The values used with this data element should be clear and understandable by health care workers and immunized persons.  Examples -COVID-19, Shingles, Hepatitis B.&#xA;The disease can be derived or inferred from the Immunizing Agent and/or Medicinal Immunizing Product, therefore optional"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <base>
         <path value="Immunization.targetDisease"/>
@@ -246,28 +265,36 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.protocolApplied.targetDisease"/>
+      </mapping>
     </element>
-    <element id="Immunization.vaccineType">
-      <path value="Immunization.vaccineType"/>
-      <short value="Vaccine type (prophylaxis, generic immunizing Agent)"/>
+    <element id="Immunization.immunizingAgent">
+      <path value="Immunization.immunizingAgent"/>
+      <short value="Generic immunizing Agent (Vaccine type, prophylaxis)"/>
       <definition value="Generic representation of the formulation administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s). &#xA;The values to support this data element include both active immunizing agents/ vaccines (e.g. Hepatitis A +B Vaccine), and passive immunizing agents, (e.g., Rabies Immunoglobulin).   The values may be high level (COVID 19 Vaccine) or more detailed (COVID-19 mRNA Vaccine)&#xA;This data element is required when the trade name is not known (such as a recording of an immunizing event that took place in the past) Because the Immunizing Agent can be derived from Medicinal Immunizing Product it is optional IF the Administrable Immunizing Agent is provided."/>
       <min value="0"/>
       <max value="*"/>
       <base>
-        <path value="Immunization.vaccineType"/>
+        <path value="Immunization.immunizingAgent"/>
         <min value="0"/>
         <max value="*"/>
       </base>
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.vaccineCode"/>
+      </mapping>
     </element>
     <element id="Immunization.subject">
       <path value="Immunization.subject"/>
       <short value="Subject"/>
       <definition value="Person that have or should have been vaccinated"/>
-      <min value="1"/>
-      <max value="*"/>
+      <min value="0"/>
+      <max value="1"/>
       <base>
         <path value="Immunization.subject"/>
         <min value="0"/>
@@ -276,12 +303,16 @@
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.patient"/>
+      </mapping>
     </element>
     <element id="Immunization.product">
       <path value="Immunization.product"/>
       <short value="Medicinal Immunizing Product"/>
       <definition value="A manufactured product that is a representation of a brand specific Immunizing Agent authorized for use in a jurisdiction.  &#xA;The values to support this data element include both active immunizing agents/ vaccines (e.g., Hepatitis A +B Vaccine, and passive immunizing agents, (e.g., Rabies Immunoglobulin). &#xA;The values may include ONLY the trade name of the product or a complete description of the product that may include the immunizing agent+dose form+trade name (or other attributes to distinguish the product."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <base>
         <path value="Immunization.product"/>
@@ -289,8 +320,13 @@
         <max value="*"/>
       </base>
       <type>
-        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Product"/>
+        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1"/>
       </type>
+      <mustSupport value="true"/>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.vaccineCode"/>
+      </mapping>
     </element>
     <element id="Immunization.administration">
       <path value="Immunization.administration"/>
@@ -306,6 +342,10 @@
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.date">
       <path value="Immunization.administration.date"/>
@@ -336,6 +376,10 @@
       <type>
         <code value="dateTime"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.occurrenceDateTime"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.date.estimated">
       <path value="Immunization.administration.date.estimated"/>
@@ -366,6 +410,10 @@
       <type>
         <code value="Quantity"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.doseQuantity"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.routeOfAdministration">
       <path value="Immunization.administration.routeOfAdministration"/>
@@ -381,6 +429,10 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.route"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.site">
       <path value="Immunization.administration.site"/>
@@ -396,6 +448,10 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.site"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.performer">
       <path value="Immunization.administration.performer"/>
@@ -411,6 +467,10 @@
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.performer"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.administrationCenter">
       <path value="Immunization.administration.administrationCenter"/>
@@ -426,6 +486,10 @@
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.performer"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.location">
       <path value="Immunization.administration.location"/>
@@ -441,6 +505,10 @@
       <type>
         <code value="Location"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.location"/>
+      </mapping>
     </element>
     <element id="Immunization.administration.country">
       <path value="Immunization.administration.country"/>
@@ -456,6 +524,14 @@
       <type>
         <code value="CodeableConcept"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.location"/>
+      </mapping>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Location.address.country"/>
+      </mapping>
     </element>
     <element id="Immunization.protocol">
       <path value="Immunization.protocol"/>
@@ -471,6 +547,10 @@
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.protocolApplied"/>
+      </mapping>
     </element>
     <element id="Immunization.protocol.doseNumber">
       <path value="Immunization.protocol.doseNumber"/>
@@ -486,9 +566,10 @@
       <type>
         <code value="integer"/>
       </type>
-      <type>
-        <code value="string"/>
-      </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.protocolApplied.doseNumber[x]"/>
+      </mapping>
     </element>
     <element id="Immunization.protocol.seriesDoseNumber">
       <path value="Immunization.protocol.seriesDoseNumber"/>
@@ -504,9 +585,10 @@
       <type>
         <code value="integer"/>
       </type>
-      <type>
-        <code value="string"/>
-      </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.protocolApplied.seriesDoses[x]"/>
+      </mapping>
     </element>
     <element id="Immunization.reaction">
       <path value="Immunization.reaction"/>
@@ -522,6 +604,10 @@
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.reaction"/>
+      </mapping>
     </element>
     <element id="Immunization.reaction.reported">
       <path value="Immunization.reaction.reported"/>
@@ -537,6 +623,10 @@
       <type>
         <code value="boolean"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.reaction.reported"/>
+      </mapping>
     </element>
     <element id="Immunization.reaction.date">
       <path value="Immunization.reaction.date"/>
@@ -552,6 +642,10 @@
       <type>
         <code value="dateTime"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.reaction.date"/>
+      </mapping>
     </element>
     <element id="Immunization.reaction.manifestation">
       <path value="Immunization.reaction.manifestation"/>
@@ -567,6 +661,10 @@
       <type>
         <code value="BackboneElement"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.reaction.detail"/>
+      </mapping>
     </element>
     <element id="Immunization.forecast">
       <path value="Immunization.forecast"/>
@@ -580,9 +678,13 @@
         <max value="1"/>
       </base>
       <type>
-        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Forecast"/>
+        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1"/>
       </type>
       <mustSupport value="true"/>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="ImmunizationRecommendation"/>
+      </mapping>
     </element>
     <element id="Immunization.notes">
       <path value="Immunization.notes"/>
@@ -598,6 +700,10 @@
       <type>
         <code value="markdown"/>
       </type>
+      <mapping>
+        <identity value="fhir"/>
+        <map value="Immunization.note"/>
+      </mapping>
     </element>
   </snapshot>
   <differential>
@@ -612,13 +718,25 @@
         <code value="BackboneElement"/>
       </type>
     </element>
-    <element id="Immunization.subject">
-      <path value="Immunization.subject"/>
+    <element id="Immunization.targetDisease">
+      <path value="Immunization.targetDisease"/>
       <min value="1"/>
       <max value="*"/>
+    </element>
+    <element id="Immunization.subject">
+      <path value="Immunization.subject"/>
       <type>
         <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1"/>
       </type>
+    </element>
+    <element id="Immunization.product">
+      <path value="Immunization.product"/>
+      <min value="1"/>
+      <max value="*"/>
+      <type>
+        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1"/>
+      </type>
+      <mustSupport value="true"/>
     </element>
     <element id="Immunization.administration.routeOfAdministration">
       <path value="Immunization.administration.routeOfAdministration"/>
@@ -669,6 +787,9 @@
       <path value="Immunization.forecast"/>
       <min value="1"/>
       <max value="1"/>
+      <type>
+        <code value="http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1"/>
+      </type>
       <mustSupport value="true"/>
     </element>
   </differential>
