@@ -92,8 +92,8 @@ This data element is required when the trade name is not known (such as a record
 * differential.element[8].definition = "Person that have or should have been vaccinated"
 * differential.element[8].min = 0
 * differential.element[8].max = "1"
-* differential.element[8].type[0].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject 
-* differential.element[8].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1
+* differential.element[8].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject 
+// * differential.element[8].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1
 * differential.element[9].id = "Immunization.product"
 * differential.element[9].path = "Immunization.product"
 * differential.element[9].short = "Medicinal Immunizing Product"
