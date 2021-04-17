@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ISO TS 5384 Immunization FHIR Logical Models"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-16T19:28:29+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-17T15:06:14+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "ISO"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

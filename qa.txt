@@ -3,7 +3,7 @@
 
 err = 0, warn = 12, info = 0
 IG Publisher Version: 1.1.66
-Generated Fri Apr 16 19:28:45 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
+Generated Sat Apr 17 15:06:28 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
 
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-Forecast : 0 / 0 / 1
