@@ -9,7 +9,14 @@ REM pandoc %in_dir%\metodologia.docx -t commonmark -f docx -o %pub_dir%\methodol
 REM pandoc %in_dir%\design.docx -t commonmark -f docx -o %pub_dir%\design.md
 REM pandoc %in_dir%\copyright.docx -t commonmark -f docx -o %pub_dir%\copyright.md
 fart %pub_dir%\index.md media/image home-
-fart %pub_dir%\useCases.md \<td\>\<a href=\"StructureDefinition-Immunization.html\"\> \<td style=\"background-color:powderblue;\"\>\<a href=\"StructureDefinition-Immunization.html\"\>
+
+fart %pub_dir%\useCases.md https://d.docs.live.net/44ab1370a64b2221/github/iso-ts-5384/pandoc/word/StructureDefinition StructureDefinition
+
+
+fart -C %pub_dir%\useCases.md "<table>" "<table style=\"width:80\x25\">"
+
+fart -C %pub_dir%\useCases.md "<td><p><strong>" "<td style=\"background-color:powderblue;vertical-align: middle;width:30\x25\"><p><strong>"
+
 
 
 REM fart %pub_dir%\methodology.md media/image method-
