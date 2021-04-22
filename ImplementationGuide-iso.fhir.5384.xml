@@ -12,7 +12,7 @@
   <title value="ISO TS 5384 Immunization FHIR Logical Models"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-17T15:06:14+00:00"/>
+  <date value="2021-04-22T20:24:18+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -193,16 +193,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/conformance-5384"/>
-      </reference>
-      <name value="ISO TS 5384 Conformance Rules"/>
-      <description value="Requirement Descriptors for the ISO TS 5384"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -213,33 +203,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Product"/>
+        <reference value="ValueSet/conformance-5384"/>
       </reference>
-      <name value="Product"/>
-      <description value="A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical:abstract"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/Subject"/>
-      </reference>
-      <name value="Subject of Care"/>
-      <description value="Subject vaccinated"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:logical"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/Product-uc1"/>
-      </reference>
-      <name value="Product - Registry Use Case"/>
-      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
+      <name value="ISO TS 5384 Conformance Rules"/>
+      <description value="Requirement Descriptors for the ISO TS 5384"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -256,9 +226,9 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Forecast-uc1"/>
+        <reference value="StructureDefinition/Subject-uc1"/>
       </reference>
-      <name value="Immunization Forecast - Registry Use Case"/>
+      <name value="Subject of Care - Registry Use Case"/>
       <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
     </resource>
     <resource>
@@ -266,10 +236,30 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/SimpleOrganization"/>
+        <reference value="StructureDefinition/Immunization-uc1"/>
       </reference>
-      <name value="Simple Organization"/>
-      <description value="Simple Organization"/>
+      <name value="UC1: Registry Use Case"/>
+      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical:abstract"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Subject"/>
+      </reference>
+      <name value="Subject of Care"/>
+      <description value="Subject vaccinated"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Forecast-uc1"/>
+      </reference>
+      <name value="Immunization Forecast - Registry Use Case"/>
+      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -296,9 +286,19 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Immunization-uc1"/>
+        <reference value="StructureDefinition/Product"/>
       </reference>
-      <name value="UC1: Registry Use Case"/>
+      <name value="Product"/>
+      <description value="A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Product-uc1"/>
+      </reference>
+      <name value="Product - Registry Use Case"/>
       <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
     </resource>
     <resource>
@@ -306,10 +306,10 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Subject-uc1"/>
+        <reference value="StructureDefinition/SimpleOrganization"/>
       </reference>
-      <name value="Subject of Care - Registry Use Case"/>
-      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
+      <name value="Simple Organization"/>
+      <description value="Simple Organization"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

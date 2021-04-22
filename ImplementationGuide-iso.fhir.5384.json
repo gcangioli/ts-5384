@@ -11,7 +11,7 @@
   "title": "ISO TS 5384 Immunization FHIR Logical Models",
   "status": "draft",
   "experimental": true,
-  "date": "2021-04-17T15:06:14+00:00",
+  "date": "2021-04-22T20:24:18+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -307,19 +307,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/conformance-5384"
-        },
-        "name": "ISO TS 5384 Conformance Rules",
-        "description": "Requirement Descriptors for the ISO TS 5384"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "CodeSystem"
           }
         ],
@@ -333,40 +320,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
+            "valueString": "ValueSet"
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Product"
+          "reference": "ValueSet/conformance-5384"
         },
-        "name": "Product",
-        "description": "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical:abstract"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/Subject"
-        },
-        "name": "Subject of Care",
-        "description": "Subject vaccinated"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:logical"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/Product-uc1"
-        },
-        "name": "Product - Registry Use Case",
-        "description": "Data Model for the 'Populate an Immunization Registry'"
+        "name": "ISO TS 5384 Conformance Rules",
+        "description": "Requirement Descriptors for the ISO TS 5384"
       },
       {
         "extension": [
@@ -389,9 +350,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Forecast-uc1"
+          "reference": "StructureDefinition/Subject-uc1"
         },
-        "name": "Immunization Forecast - Registry Use Case",
+        "name": "Subject of Care - Registry Use Case",
         "description": "Data Model for the 'Populate an Immunization Registry'"
       },
       {
@@ -402,10 +363,36 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/SimpleOrganization"
+          "reference": "StructureDefinition/Immunization-uc1"
         },
-        "name": "Simple Organization",
-        "description": "Simple Organization"
+        "name": "UC1: Registry Use Case",
+        "description": "Data Model for the 'Populate an Immunization Registry'"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical:abstract"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Subject"
+        },
+        "name": "Subject of Care",
+        "description": "Subject vaccinated"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Forecast-uc1"
+        },
+        "name": "Immunization Forecast - Registry Use Case",
+        "description": "Data Model for the 'Populate an Immunization Registry'"
       },
       {
         "extension": [
@@ -441,9 +428,22 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Immunization-uc1"
+          "reference": "StructureDefinition/Product"
         },
-        "name": "UC1: Registry Use Case",
+        "name": "Product",
+        "description": "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Product-uc1"
+        },
+        "name": "Product - Registry Use Case",
         "description": "Data Model for the 'Populate an Immunization Registry'"
       },
       {
@@ -454,10 +454,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Subject-uc1"
+          "reference": "StructureDefinition/SimpleOrganization"
         },
-        "name": "Subject of Care - Registry Use Case",
-        "description": "Data Model for the 'Populate an Immunization Registry'"
+        "name": "Simple Organization",
+        "description": "Simple Organization"
       }
     ],
     "page": {

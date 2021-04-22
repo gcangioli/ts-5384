@@ -30,9 +30,9 @@ The disease can be derived or inferred from the Immunizing Agent and/or Medicina
 The values to support this data element include both active immunizing agents/ vaccines (e.g. Hepatitis A +B Vaccine), and passive immunizing agents, (e.g., Rabies Immunoglobulin).   The values may be high level (COVID 19 Vaccine) or more detailed (COVID-19 mRNA Vaccine)
 This data element is required when the trade name is not known (such as a recording of an immunizing event that took place in the past) Because the Immunizing Agent can be derived from Medicinal Immunizing Product it is optional IF the Administrable Immunizing Agent is provided.","","","","","","","","","",,,,,"",,,,"Immunization.immunizingAgent",0,*,"","","Immunization.vaccineCode"
 "Immunization.subject","","","",0,1,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/Subject {[]} {[]}
-http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1 {[]} {[]}","Subject","Person that have or should have been vaccinated","","","","","","","","","",,,,,"",,,,"Immunization.subject",0,1,"","","Immunization.patient"
+","Subject","Person that have or should have been vaccinated","","","","","","","","","",,,,,"",,,,"Immunization.subject",0,1,"","","Immunization.patient"
 "Immunization.product","","","",0,*,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/Product {[]} {[]}
-http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1 {[]} {[]}","Medicinal Immunizing Product","A manufactured product that is a representation of a brand specific Immunizing Agent authorized for use in a jurisdiction.  
+","Medicinal Immunizing Product","A manufactured product that is a representation of a brand specific Immunizing Agent authorized for use in a jurisdiction.  
 The values to support this data element include both active immunizing agents/ vaccines (e.g., Hepatitis A +B Vaccine, and passive immunizing agents, (e.g., Rabies Immunoglobulin). 
 The values may include ONLY the trade name of the product or a complete description of the product that may include the immunizing agent+dose form+trade name (or other attributes to distinguish the product.","","","","","","","","","",,,,,"",,,,"Immunization.product",0,*,"","","Immunization.vaccineCode"
 "Immunization.administration","","","",0,1,"","","","BackboneElement {[]} {[]}
@@ -80,6 +80,6 @@ Not to be confused with the date the reaction was reported","","","","","","",""
 ","Adverse Reaction manifestation","Indicates the specific type of Adverse Reaction Following Immunization that occurred. 
 Example: Rash, Hives","","","","","","","","","",,,,,"",,,,"Immunization.reaction.manifestation",0,1,"","","Immunization.reaction.detail"
 "Immunization.forecast","","","",0,1,"","","","http://iso.org/fhir/ts-5384/StructureDefinition/Forecast {[]} {[]}
-http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1 {[]} {[]}","Subject's immunization forecast","Subject's immunization forecast","","","","","","","","","",,,,,"",,,,"Immunization.forecast",0,1,"","","ImmunizationRecommendation"
+","Subject's immunization forecast","Subject's immunization forecast","","","","","","","","","",,,,,"",,,,"Immunization.forecast",0,1,"","","ImmunizationRecommendation"
 "Immunization.notes","","","",0,1,"","","","markdown {[]} {[]}
 ","Additional information relevant to the immunization record.","The note is specific to the immunization event, agent or antigen.","","","","","","","","","",,,,,"",,,,"Immunization.notes",0,1,"","","Immunization.note"
