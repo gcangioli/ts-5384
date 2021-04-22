@@ -92,8 +92,7 @@ This data element is required when the trade name is not known (such as a record
 * differential.element[8].definition = "Person that have or should have been vaccinated"
 * differential.element[8].min = 0
 * differential.element[8].max = "1"
-* differential.element[8].type[0].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject 
-* differential.element[8].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1
+* differential.element[8].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Subject
 * differential.element[9].id = "Immunization.product"
 * differential.element[9].path = "Immunization.product"
 * differential.element[9].short = "Medicinal Immunizing Product"
@@ -102,8 +101,7 @@ The values to support this data element include both active immunizing agents/ v
 The values may include ONLY the trade name of the product or a complete description of the product that may include the immunizing agent+dose form+trade name (or other attributes to distinguish the product."
 * differential.element[9].min = 0
 * differential.element[9].max = "*"
-* differential.element[9].type[0].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product 
-* differential.element[9].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1
+* differential.element[9].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product
 * differential.element[10].id = "Immunization.administration"
 * differential.element[10].path = "Immunization.administration"
 * differential.element[10].short = "Immunization Administration"
@@ -244,8 +242,7 @@ Example: Rash, Hives"
 * differential.element[28].definition = "Subject's immunization forecast"
 * differential.element[28].min = 0
 * differential.element[28].max = "1"
-* differential.element[28].type[0].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast 
-* differential.element[28].type[1].code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1
+* differential.element[28].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Forecast
 * differential.element[29].id = "Immunization.notes"
 * differential.element[29].path = "Immunization.notes"
 * differential.element[29].short = "Additional information relevant to the immunization record."
