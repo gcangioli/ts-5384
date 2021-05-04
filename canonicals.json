@@ -95,7 +95,14 @@
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1",
     "version": "0.0.1",
-    "name": "ProductUc1"
+    "name": "ProductUcRegistry"
+  },
+  {
+    "id": "Product-uc2",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc2",
+    "version": "0.0.1",
+    "name": "ProductUcCurrentEvent"
   },
   {
     "id": "SimpleOrganization",

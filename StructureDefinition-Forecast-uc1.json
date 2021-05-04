@@ -11,7 +11,7 @@
   "title": "Immunization Forecast - Registry Use Case",
   "status": "draft",
   "experimental": true,
-  "date": "2021-05-04T07:17:50+00:00",
+  "date": "2021-05-04T17:36:20+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -197,13 +197,6 @@
           {
             "code": "dateTime"
           }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.date",
-            "comment": "note"
-          }
         ]
       },
       {
@@ -223,13 +216,7 @@
             "code": "CodeableConcept"
           }
         ],
-        "mustSupport": true,
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.recommendation.forecastStatus"
-          }
-        ]
+        "mustSupport": true
       },
       {
         "id": "Forecast.description",
@@ -246,12 +233,6 @@
         "type": [
           {
             "code": "string"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.description"
           }
         ]
       },
@@ -270,16 +251,6 @@
         "type": [
           {
             "code": "string"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.supportingPatientInformation"
-          },
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.supportingImmunization"
           }
         ]
       },
@@ -300,13 +271,7 @@
             "code": "BackboneElement"
           }
         ],
-        "mustSupport": true,
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.recommendation.dateCriterion"
-          }
-        ]
+        "mustSupport": true
       },
       {
         "id": "Forecast.date.type",
@@ -323,12 +288,6 @@
         "type": [
           {
             "code": "CodeableConcept"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.recommendation.dateCriterion.code"
           }
         ]
       },
@@ -349,13 +308,7 @@
             "code": "dateTime"
           }
         ],
-        "mustSupport": true,
-        "mapping": [
-          {
-            "identity": "fhir",
-            "map": "ImmunizationRecommendation.recommendation.dateCriterion.value"
-          }
-        ]
+        "mustSupport": true
       }
     ]
   },

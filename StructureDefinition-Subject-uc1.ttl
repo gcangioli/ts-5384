@@ -18,7 +18,7 @@
   fhir:StructureDefinition.title [ fhir:value "Subject of Care - Registry Use Case"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-04T07:17:50+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-04T17:36:20+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "ISO"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -334,7 +334,7 @@
        fhir:Element.id [ fhir:value "Subject.sex" ];
        fhir:ElementDefinition.path [ fhir:value "Subject.sex" ];
        fhir:ElementDefinition.short [ fhir:value "Recorded Sex" ];
-       fhir:ElementDefinition.definition [ fhir:value "Documentation of a specific instance of sex information. \nNot to be confused with the client’s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else." ];
+       fhir:ElementDefinition.definition [ fhir:value "Documentation of a specific instance of sex information. \nNot to be confused with the client?s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else." ];
        fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "1" ];
        fhir:ElementDefinition.base [

@@ -18,7 +18,7 @@
   fhir:StructureDefinition.title [ fhir:value "Immunization Forecast"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-04T07:17:50+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-04T17:36:20+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "ISO"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -206,12 +206,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.date" ];
-         fhir:ElementDefinition.mapping.comment [ fhir:value "note" ]
        ]
      ], [
        fhir:index 4;
@@ -229,11 +223,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.forecastStatus" ]
        ]
      ], [
        fhir:index 5;
@@ -251,11 +240,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.description" ]
        ]
      ], [
        fhir:index 6;
@@ -273,15 +257,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.supportingPatientInformation" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.supportingImmunization" ]
        ]
      ], [
        fhir:index 7;
@@ -299,11 +274,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.dateCriterion" ]
        ]
      ], [
        fhir:index 8;
@@ -321,11 +291,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.dateCriterion.code" ]
        ]
      ], [
        fhir:index 9;
@@ -343,11 +308,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.dateCriterion.value" ]
        ]
      ]
   ];
@@ -371,12 +331,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.date" ];
-         fhir:ElementDefinition.mapping.comment [ fhir:value "note" ]
        ]
      ], [
        fhir:index 2;
@@ -389,11 +343,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.forecastStatus" ]
        ]
      ], [
        fhir:index 3;
@@ -406,11 +355,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.description" ]
        ]
      ], [
        fhir:index 4;
@@ -423,15 +367,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "string" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.supportingPatientInformation" ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.supportingImmunization" ]
        ]
      ], [
        fhir:index 5;
@@ -444,11 +379,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "BackboneElement" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.dateCriterion" ]
        ]
      ], [
        fhir:index 6;
@@ -461,11 +391,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "CodeableConcept" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.dateCriterion.code" ]
        ]
      ], [
        fhir:index 7;
@@ -478,11 +403,6 @@
        fhir:ElementDefinition.type [
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "dateTime" ]
-       ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "fhir" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "ImmunizationRecommendation.recommendation.dateCriterion.value" ]
        ]
      ]
   ] .

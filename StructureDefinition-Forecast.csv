@@ -11,21 +11,21 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Forecast.creationDate","","","",0,1,"","","","dateTime {[]} {[]}
 ","Immunization Forecast Status Generated Date","The date the subject's Immunization Forecast Status was generated
-The date the subject's Immunization Forecast Status was generated may not be the same as the Immunization Forecast Date.","","","","","","","","","",,,,,"",,,,"Forecast.creationDate",0,1,"","","ImmunizationRecommendation.date"
+The date the subject's Immunization Forecast Status was generated may not be the same as the Immunization Forecast Date.","","","","","","","","","",,,,,"",,,,"Forecast.creationDate",0,1,"",""
 "Forecast.status","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Immunization Forecast Status","Represents the subject's requirement type for a particular Medicinal Immunizing Product.
-Provides the status of a subject towards immunity against a Vaccine Preventable Disease.  Values may include due, overdue, no longer recommended etc.)  A subject's immunization forecast status changes over time and is dependent on the interval of time between immunizations, the subject's age and other risk factors (e.g. pregnancy).  ","","","","","","","","","",,,,,"",,,,"Forecast.status",0,1,"","","ImmunizationRecommendation.recommendation.forecastStatus"
+Provides the status of a subject towards immunity against a Vaccine Preventable Disease.  Values may include due, overdue, no longer recommended etc.)  A subject's immunization forecast status changes over time and is dependent on the interval of time between immunizations, the subject's age and other risk factors (e.g. pregnancy).  ","","","","","","","","","",,,,,"",,,,"Forecast.status",0,1,"",""
 "Forecast.description","","","",0,1,"","","","string {[]} {[]}
 ","Immunization Forecast Description","Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.
-This information assists the clinician and subject in understanding the Immunization Forecast Status.  (e.g., Recommend 3 doses of the HPV vaccine starting at age 15 years)","","","","","","","","","",,,,,"",,,,"Forecast.description",0,1,"","","ImmunizationRecommendation.description"
+This information assists the clinician and subject in understanding the Immunization Forecast Status.  (e.g., Recommend 3 doses of the HPV vaccine starting at age 15 years)","","","","","","","","","",,,,,"",,,,"Forecast.description",0,1,"",""
 "Forecast.supportingInformation","","","",0,1,"","","","string {[]} {[]}
 ","Immunization Forecast Supporting Information","Represents subject information that supports requirements related to a forecasted immunization event.
-This includes elaboration of the Immunization Forecast Status, Immunization Forecast Description, observations, adverse reactions etc..","","","","","","","","","",,,,,"",,,,"Forecast.supportingInformation",0,1,"","","ImmunizationRecommendation.supportingPatientInformation","ImmunizationRecommendation.supportingImmunization"
+This includes elaboration of the Immunization Forecast Status, Immunization Forecast Description, observations, adverse reactions etc..","","","","","","","","","",,,,,"",,,,"Forecast.supportingInformation",0,1,"",""
 "Forecast.date","","","",0,*,"","","","BackboneElement {[]} {[]}
-","Immunization Forecast Date","Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.","","","","","","","","","",,,,,"",,,,"Forecast.date",0,*,"","","ImmunizationRecommendation.recommendation.dateCriterion"
+","Immunization Forecast Date","Represents the description of the protocol as determined by the Organization Responsible for Immunization Administration that pertains to the subject.","","","","","","","","","",,,,,"",,,,"Forecast.date",0,*,"",""
 "Forecast.date.type","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Immunization Forecast Date Type","Type of date classification pertinent to the administration of the forecasted immunization event.  
-This data element must align and be used with Immunization Forecast Date data element.  Examples of values to support this data element include: the earliest due date, latest due date (the recommended date) for administration of the vaccine.","","","","","","","","","",,,,,"",,,,"Forecast.date.type",0,1,"","","ImmunizationRecommendation.recommendation.dateCriterion.code"
+This data element must align and be used with Immunization Forecast Date data element.  Examples of values to support this data element include: the earliest due date, latest due date (the recommended date) for administration of the vaccine.","","","","","","","","","",,,,,"",,,,"Forecast.date.type",0,1,"",""
 "Forecast.date.value","","","",0,1,"","","","dateTime {[]} {[]}
 ","Immunization Forecast Date","The date provided in the subject's immunization forecast whose meaning relates to the Immunization Forecast Date Type.
-This data element must align and be used with the Immunization Forecast Date Type data element.","","","","","","","","","",,,,,"",,,,"Forecast.date.value",0,1,"","","ImmunizationRecommendation.recommendation.dateCriterion.value"
+This data element must align and be used with the Immunization Forecast Date Type data element.","","","","","","","","","",,,,,"",,,,"Forecast.date.value",0,1,"",""

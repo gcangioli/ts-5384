@@ -54,10 +54,10 @@ Example: Rash, Hives">manifestation</a><a name="Immunization.reaction.manifestat
   <url value="http://iso.org/fhir/ts-5384/StructureDefinition/Immunization"/>
   <version value="0.0.1"/>
   <name value="Immunization"/>
-  <title value="ISO TS 5384 data model (general)"/>
+  <title value="Immunization"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-05-04T07:17:50+00:00"/>
+  <date value="2021-05-04T17:36:20+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>

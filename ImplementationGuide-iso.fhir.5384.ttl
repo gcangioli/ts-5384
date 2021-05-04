@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "ISO TS 5384 Immunization FHIR Logical Models"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-05-04T07:17:50+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-05-04T17:36:20+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "ISO"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -426,7 +426,7 @@
          fhir:link <http://iso.org/fhir/ts-5384/StructureDefinition/Immunization>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Immunization" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ISO TS 5384 data model (general)" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Immunization" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ISO TS 5384 data model" ]
      ], [
        fhir:index 11;
@@ -506,6 +506,19 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "UC4: Create Client Immunization history" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Data Model for the 'Create Client Immunization history'" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:logical" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc2>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Product-uc2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Product: Record a Current immunization event" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Product Model for the 'Record a Current immunization event'" ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];

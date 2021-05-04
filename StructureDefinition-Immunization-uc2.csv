@@ -31,8 +31,8 @@ The values to support this data element include both active immunizing agents/ v
 This data element is required when the trade name is not known (such as a recording of an immunizing event that took place in the past) Because the Immunizing Agent can be derived from Medicinal Immunizing Product it is optional IF the Administrable Immunizing Agent is provided.","","","","","","","","","",,,,,"",,,,"Immunization.immunizingAgent",0,*,"","","Immunization.vaccineCode"
 "Immunization.subject","","","",1,1,"Y","","","http://iso.org/fhir/ts-5384/StructureDefinition/Subject-uc1 {[]} {[]}
 ","[R] Subject","Person that have or should have been vaccinated","","","","","","","","","",,,,,"",,,,"Immunization.subject",0,1,"","","Immunization.patient"
-"Immunization.product","","","",1,*,"Y","","","http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1 {[]} {[]}
-","[R] Medicinal Immunizing Product","A manufactured product that is a representation of a brand specific Immunizing Agent authorized for use in a jurisdiction.  
+"Immunization.product","","","",1,*,"Y","","","http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc2 {[]} {[]}
+","[M] Medicinal Immunizing Product","A manufactured product that is a representation of a brand specific Immunizing Agent authorized for use in a jurisdiction.  
 The values to support this data element include both active immunizing agents/ vaccines (e.g., Hepatitis A +B Vaccine, and passive immunizing agents, (e.g., Rabies Immunoglobulin). 
 The values may include ONLY the trade name of the product or a complete description of the product that may include the immunizing agent+dose form+trade name (or other attributes to distinguish the product.","","","","","","","","","",,,,,"",,,,"Immunization.product",0,*,"","","Immunization.vaccineCode"
 "Immunization.administration","","","",1,1,"","","","BackboneElement {[]} {[]}

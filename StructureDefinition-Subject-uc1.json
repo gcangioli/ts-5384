@@ -11,7 +11,7 @@
   "title": "Subject of Care - Registry Use Case",
   "status": "draft",
   "experimental": true,
-  "date": "2021-05-04T07:17:50+00:00",
+  "date": "2021-05-04T17:36:20+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -332,7 +332,7 @@
         "id": "Subject.sex",
         "path": "Subject.sex",
         "short": "Recorded Sex",
-        "definition": "Documentation of a specific instance of sex information. \nNot to be confused with the client’s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else.",
+        "definition": "Documentation of a specific instance of sex information. \nNot to be confused with the client?s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else.",
         "min": 1,
         "max": "1",
         "base": {

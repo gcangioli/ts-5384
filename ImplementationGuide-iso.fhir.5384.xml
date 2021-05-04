@@ -12,7 +12,7 @@
   <title value="ISO TS 5384 Immunization FHIR Logical Models"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-05-04T07:17:50+00:00"/>
+  <date value="2021-05-04T17:36:20+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -298,7 +298,7 @@
       <reference>
         <reference value="StructureDefinition/Immunization"/>
       </reference>
-      <name value="ISO TS 5384 data model (general)"/>
+      <name value="Immunization"/>
       <description value="ISO TS 5384 data model"/>
     </resource>
     <resource>
@@ -360,6 +360,16 @@
       </reference>
       <name value="UC4: Create Client Immunization history"/>
       <description value="Data Model for the &#39;Create Client Immunization history&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Product-uc2"/>
+      </reference>
+      <name value="Product: Record a Current immunization event"/>
+      <description value="Product Model for the &#39;Record a Current immunization event&#39;"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

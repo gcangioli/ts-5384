@@ -18,7 +18,7 @@
   fhir:StructureDefinition.title [ fhir:value "Health Professional"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-04T07:17:50+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-04T17:36:20+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "ISO"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

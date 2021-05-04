@@ -25,7 +25,7 @@ This data element must align and be used with the Immunization Forecast Date Typ
   <title value="Immunization Forecast"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-05-04T07:17:50+00:00"/>
+  <date value="2021-05-04T17:36:20+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -170,11 +170,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.date"/>
-        <comment value="note"/>
-      </mapping>
     </element>
     <element id="Forecast.status">
       <path value="Forecast.status"/>
@@ -190,10 +185,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.forecastStatus"/>
-      </mapping>
     </element>
     <element id="Forecast.description">
       <path value="Forecast.description"/>
@@ -209,10 +200,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.description"/>
-      </mapping>
     </element>
     <element id="Forecast.supportingInformation">
       <path value="Forecast.supportingInformation"/>
@@ -228,14 +215,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.supportingPatientInformation"/>
-      </mapping>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.supportingImmunization"/>
-      </mapping>
     </element>
     <element id="Forecast.date">
       <path value="Forecast.date"/>
@@ -251,10 +230,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.dateCriterion"/>
-      </mapping>
     </element>
     <element id="Forecast.date.type">
       <path value="Forecast.date.type"/>
@@ -270,10 +245,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.dateCriterion.code"/>
-      </mapping>
     </element>
     <element id="Forecast.date.value">
       <path value="Forecast.date.value"/>
@@ -289,10 +260,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.dateCriterion.value"/>
-      </mapping>
     </element>
   </snapshot>
   <differential>
@@ -312,11 +279,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.date"/>
-        <comment value="note"/>
-      </mapping>
     </element>
     <element id="Forecast.status">
       <path value="Forecast.status"/>
@@ -327,10 +289,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.forecastStatus"/>
-      </mapping>
     </element>
     <element id="Forecast.description">
       <path value="Forecast.description"/>
@@ -341,10 +299,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.description"/>
-      </mapping>
     </element>
     <element id="Forecast.supportingInformation">
       <path value="Forecast.supportingInformation"/>
@@ -355,14 +309,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="string"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.supportingPatientInformation"/>
-      </mapping>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.supportingImmunization"/>
-      </mapping>
     </element>
     <element id="Forecast.date">
       <path value="Forecast.date"/>
@@ -373,10 +319,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="BackboneElement"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.dateCriterion"/>
-      </mapping>
     </element>
     <element id="Forecast.date.type">
       <path value="Forecast.date.type"/>
@@ -387,10 +329,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="CodeableConcept"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.dateCriterion.code"/>
-      </mapping>
     </element>
     <element id="Forecast.date.value">
       <path value="Forecast.date.value"/>
@@ -401,10 +339,6 @@ This data element must align and be used with the Immunization Forecast Date Typ
       <type>
         <code value="dateTime"/>
       </type>
-      <mapping>
-        <identity value="fhir"/>
-        <map value="ImmunizationRecommendation.recommendation.dateCriterion.value"/>
-      </mapping>
     </element>
   </differential>
 </StructureDefinition>

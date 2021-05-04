@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "ISO TS 5384 Conformance Rules"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2021-05-04T07:17:50+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-05-04T17:36:20+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "ISO"];
   fhir:CodeSystem.contact [
      fhir:index 0;

@@ -16,7 +16,7 @@
   <title value="Subject of Care - Registry Use Case"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-05-04T07:17:50+00:00"/>
+  <date value="2021-05-04T17:36:20+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -273,7 +273,7 @@
     <element id="Subject.sex">
       <path value="Subject.sex"/>
       <short value="Recorded Sex"/>
-      <definition value="Documentation of a specific instance of sex information. &#xA;Not to be confused with the client&#x2019;s gender identity (if present) which is an individual&#39;s personal sense of being a man, woman, boy, girl, or something else."/>
+      <definition value="Documentation of a specific instance of sex information. &#xA;Not to be confused with the client?s gender identity (if present) which is an individual&#39;s personal sense of being a man, woman, boy, girl, or something else."/>
       <min value="1"/>
       <max value="1"/>
       <base>

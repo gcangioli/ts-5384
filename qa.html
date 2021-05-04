@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 0, warn = 12, info = 0 -->
+<!-- broken links = 4, errors = 9, warn = 15, info = 0 -->
 <head>
   <title>IsoTs5384 : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,7 +23,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for IsoTs5384</h1>
- <p>Generated Tue May 04 07:18:12 UTC 2021, FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = <a href="http://iso.org/fhir/ts-5384">http://iso.org/fhir/ts-5384</a> (<a href="http://iso.org/fhir/ts-5384/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
+ <p>Generated Tue May 04 17:36:45 UTC 2021, FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = <a href="http://iso.org/fhir/ts-5384">http://iso.org/fhir/ts-5384</a> (<a href="http://iso.org/fhir/ts-5384/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.68</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = iso.fhir.5384, Canonical = http://iso.org/fhir/ts-5384</td></tr>
@@ -37,14 +37,14 @@
 </td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://iso.org/fhir/ts-5384 (Problem #1 with package-list.json at http://iso.org/fhir/ts-5384: class com.google.gson.JsonNull cannot be cast to class com.google.gson.JsonObject (com.google.gson.JsonNull and com.google.gson.JsonObject are in unnamed module of loader 'app'))</td></tr>
- <tr><td>Summary:</td><td> broken links = 0, errors = 0, warn = 12, info = 0</td></tr>
+ <tr><td>Summary:</td><td> broken links = 4, errors = 9, warn = 15, info = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
-   <tr style="background-color: #EFFFEF">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>4</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Forecast"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Forecast</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
@@ -79,8 +79,11 @@
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Product"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Product</b></a></td><td><b>0</b></td><td><b>6</b></td><td><b>1</b></td>
    </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Product-uc1"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Product-uc1</b></a></td><td><b>9</b></td><td><b>6</b></td><td><b>1</b></td>
+   </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Product-uc1"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Product-uc1</b></a></td><td><b>0</b></td><td><b>6</b></td><td><b>1</b></td>
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Product-uc2"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Product-uc2</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-SimpleOrganization"><b>/github/workspace/fsh-generated/resources/StructureDefinition-SimpleOrganization</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>1</b></td>
@@ -105,6 +108,18 @@
 <a name="internal"> </a>
 <h2><a href="">n/a</a></h2>
  <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-Product-uc1.html#24571078-e9fe-4182-9908-41d2c9ecd09f">StructureDefinition-Product-uc1.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 313, column 725</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-Product-uc1-definitions.html#Product.packageIdentifiers.serialNumber' for &quot;serialNumber&quot; cannot be resolved (valid targets: [Product.name, Product.codeSet.PhPID, publish-box, Product.codeSet.PCID, Product.codeSet, segment-post-footer, Product, Product.codeSet.MPID, hl7-search, hl7-search-lnk, family-logo, Product.packageIdentifiers, Product.composition.description, Product.extension, Product.composition.ingredient.substanceCode, root, Product.id, stripe, segment-footer, segment-content, Product.codeSet.productCode, Product.packageIdentifiers.lotNumber, Product.expiryDate, segment-header, Product.composition.ingredient.substanceQuantity, Product.marketAuthorizationHolder, Product.composition, hl7-logo, logical-model-productucregistry-detailed-descriptions, Product.manufacturer, Product.composition.ingredient.ingredientRole, family-nav, ig-status, Product.packageIdentifiers.dataCarrierIdentifier, hl7-nav, segment-navbar, Product.composition.ingredient.substanceName, Product.composition.ingredient, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-Product-uc1.html#8c211b2f-f960-4c2c-874c-b471b086062c">StructureDefinition-Product-uc1.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 314, column 719</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-Product-uc1-definitions.html#Product.packageIdentifiers.uniqueIdentifier' for &quot;uniqueIdentifier&quot; cannot be resolved (valid targets: [Product.name, Product.codeSet.PhPID, publish-box, Product.codeSet.PCID, Product.codeSet, segment-post-footer, Product, Product.codeSet.MPID, hl7-search, hl7-search-lnk, family-logo, Product.packageIdentifiers, Product.composition.description, Product.extension, Product.composition.ingredient.substanceCode, root, Product.id, stripe, segment-footer, segment-content, Product.codeSet.productCode, Product.packageIdentifiers.lotNumber, Product.expiryDate, segment-header, Product.composition.ingredient.substanceQuantity, Product.marketAuthorizationHolder, Product.composition, hl7-logo, logical-model-productucregistry-detailed-descriptions, Product.manufacturer, Product.composition.ingredient.ingredientRole, family-nav, ig-status, Product.packageIdentifiers.dataCarrierIdentifier, hl7-nav, segment-navbar, Product.composition.ingredient.substanceName, Product.composition.ingredient, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-Product-uc1.html#0f28593c-71c5-4a69-a425-da2d1ccf315e">StructureDefinition-Product-uc1.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 504, column 725</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-Product-uc1-definitions.html#Product.packageIdentifiers.serialNumber' for &quot;serialNumber&quot; cannot be resolved (valid targets: [Product.name, Product.codeSet.PhPID, publish-box, Product.codeSet.PCID, Product.codeSet, segment-post-footer, Product, Product.codeSet.MPID, hl7-search, hl7-search-lnk, family-logo, Product.packageIdentifiers, Product.composition.description, Product.extension, Product.composition.ingredient.substanceCode, root, Product.id, stripe, segment-footer, segment-content, Product.codeSet.productCode, Product.packageIdentifiers.lotNumber, Product.expiryDate, segment-header, Product.composition.ingredient.substanceQuantity, Product.marketAuthorizationHolder, Product.composition, hl7-logo, logical-model-productucregistry-detailed-descriptions, Product.manufacturer, Product.composition.ingredient.ingredientRole, family-nav, ig-status, Product.packageIdentifiers.dataCarrierIdentifier, hl7-nav, segment-navbar, Product.composition.ingredient.substanceName, Product.composition.ingredient, segment-breadcrumb])</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-Product-uc1.html#ae3e5cc8-f2d6-4fbf-9606-45e2783130d8">StructureDefinition-Product-uc1.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 505, column 719</a></b></td><td><b>error</b></td><td><b>The link 'StructureDefinition-Product-uc1-definitions.html#Product.packageIdentifiers.uniqueIdentifier' for &quot;uniqueIdentifier&quot; cannot be resolved (valid targets: [Product.name, Product.codeSet.PhPID, publish-box, Product.codeSet.PCID, Product.codeSet, segment-post-footer, Product, Product.codeSet.MPID, hl7-search, hl7-search-lnk, family-logo, Product.packageIdentifiers, Product.composition.description, Product.extension, Product.composition.ingredient.substanceCode, root, Product.id, stripe, segment-footer, segment-content, Product.codeSet.productCode, Product.packageIdentifiers.lotNumber, Product.expiryDate, segment-header, Product.composition.ingredient.substanceQuantity, Product.marketAuthorizationHolder, Product.composition, hl7-logo, logical-model-productucregistry-detailed-descriptions, Product.manufacturer, Product.composition.ingredient.ingredientRole, family-nav, ig-status, Product.packageIdentifiers.dataCarrierIdentifier, hl7-nav, segment-navbar, Product.composition.ingredient.substanceName, Product.composition.ingredient, segment-breadcrumb])</b></td>
+   </tr>
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_StructureDefinition-Forecast"> </a>
@@ -252,6 +267,24 @@
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1')</b></td><td><b>error</b></td><td title=""><b>StructureDefinition profile http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1: Differential contains path Product.packageIdentifiers.serialNumber which is not found in the in base profile http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1')</b></td><td><b>error</b></td><td title=""><b>StructureDefinition profile http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1: Differential contains path Product.packageIdentifiers.uniqueIdentifier which is not found in the in base profile http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1')</b></td><td><b>error</b></td><td title=""><b>The element Product.packageIdentifiers.uniqueIdentifier is out of order (and maybe others after it)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1#Product.packageIdentifiers.serialNumber</b></td><td><b>error</b></td><td title=""><b>No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1#Product.packageIdentifiers.uniqueIdentifier</b></td><td><b>error</b></td><td title=""><b>No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1</b></td><td><b>error</b></td><td title=""><b>The profile http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1 has 2 elements in the differential (id: Product.packageIdentifiers.serialNumber, id: Product.packageIdentifiers.uniqueIdentifier) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
+   </tr>
    <tr style="background-color: #d6feff">
      <td><b>StructureDefinition/Product-uc1: StructureDefinition/Product-uc1: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
    </tr>
@@ -272,6 +305,35 @@
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition/Product-uc1: StructureDefinition/Product-uc1: StructureDefinition.differential.element[5]</b></td><td><b>warning</b></td><td title="eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed"><b>eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/Product-uc1: StructureDefinition/Product-uc1: StructureDefinition.differential.element.where(path = 'Product.packageIdentifiers.serialNumber')</b></td><td><b>error</b></td><td title=""><b>No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/Product-uc1: StructureDefinition/Product-uc1: StructureDefinition.differential.element.where(path = 'Product.packageIdentifiers.uniqueIdentifier')</b></td><td><b>error</b></td><td title=""><b>No match found in the generated snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/Product-uc1: StructureDefinition/Product-uc1: StructureDefinition</b></td><td><b>error</b></td><td title=""><b>The profile http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1 has 2 elements in the differential (id: Product.packageIdentifiers.serialNumber, id: Product.packageIdentifiers.uniqueIdentifier) that don't have a matching element in the snapshot: check that the path and definitions are legal in the differential (including order)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-Product-uc2"> </a>
+<h2><a href="StructureDefinition-Product-uc2.html">/github/workspace/fsh-generated/resources/StructureDefinition-Product-uc2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/Product-uc2: StructureDefinition/Product-uc2: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/Product-uc2: StructureDefinition/Product-uc2: StructureDefinition.snapshot.element[5]</b></td><td><b>warning</b></td><td title="eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed"><b>eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/Product-uc2: StructureDefinition/Product-uc2: StructureDefinition.snapshot.element[6]</b></td><td><b>warning</b></td><td title="eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed"><b>eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition/Product-uc2: StructureDefinition/Product-uc2: StructureDefinition.snapshot.element[7]</b></td><td><b>warning</b></td><td title="eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed"><b>eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed</b></td>
    </tr>
 </table>
 <hr/>

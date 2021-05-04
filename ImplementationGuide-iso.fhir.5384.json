@@ -11,7 +11,7 @@
   "title": "ISO TS 5384 Immunization FHIR Logical Models",
   "status": "draft",
   "experimental": true,
-  "date": "2021-05-04T07:17:50+00:00",
+  "date": "2021-05-04T17:36:20+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -443,7 +443,7 @@
         "reference": {
           "reference": "StructureDefinition/Immunization"
         },
-        "name": "ISO TS 5384 data model (general)",
+        "name": "Immunization",
         "description": "ISO TS 5384 data model"
       },
       {
@@ -523,6 +523,19 @@
         },
         "name": "UC4: Create Client Immunization history",
         "description": "Data Model for the 'Create Client Immunization history'"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Product-uc2"
+        },
+        "name": "Product: Record a Current immunization event",
+        "description": "Product Model for the 'Record a Current immunization event'"
       }
     ],
     "page": {

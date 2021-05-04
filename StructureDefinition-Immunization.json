@@ -8,10 +8,10 @@
   "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization",
   "version": "0.0.1",
   "name": "Immunization",
-  "title": "ISO TS 5384 data model (general)",
+  "title": "Immunization",
   "status": "draft",
   "experimental": true,
-  "date": "2021-05-04T07:17:50+00:00",
+  "date": "2021-05-04T17:36:20+00:00",
   "publisher": "ISO",
   "contact": [
     {

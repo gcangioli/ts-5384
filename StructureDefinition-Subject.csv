@@ -29,4 +29,4 @@ To include at a minimum the year of birth (which could be estimated)","","","","
 This should not be confused with citizenship or nationality.","","","","","","","","","",,,,,"",,,,"Subject.ethnicity",0,1,"",""
 "Subject.sex","","","",0,1,"","","","CodeableConcept {[]} {[]}
 ","Recorded Sex","Documentation of a specific instance of sex information. 
-Not to be confused with the client’s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else.","","","","","","","","","",,,,,"",,,,"Subject.sex",0,1,"",""
+Not to be confused with the client?s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else.","","","","","","","","","",,,,,"",,,,"Subject.sex",0,1,"",""
