@@ -250,7 +250,7 @@ Example: Rash, Hives"
 * differential.element[29].min = 0
 * differential.element[29].max = "1"
 * differential.element[29].type.code = #markdown
-"// === MAPPING ===" 
+// === MAPPING === 
 * differential.element[1].mapping[0].identity = "fhir"
 * differential.element[1].mapping[0].map = "Immunization.recorded"
 * differential.element[1].mapping[0].comment = "note"

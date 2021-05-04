@@ -15,9 +15,9 @@ fart %pub_dir%\useCases.md https://d.docs.live.net/44ab1370a64b2221/github/iso-t
 
 fart -C %pub_dir%\useCases.md "<table>" "<table style=\"width:80\x25\">"
 
+fart -C %pub_dir%\useCases.md "<td><p><a" "<td style=\"background-color:powderblue;vertical-align: middle;width:30\x25\"><p><a"
+
 fart -C %pub_dir%\useCases.md "<td><p><strong>" "<td style=\"background-color:powderblue;vertical-align: middle;width:30\x25\"><p><strong>"
-
-
 
 REM fart %pub_dir%\methodology.md media/image method-
 REM fart %pub_dir%\design.md media/image design-

@@ -13,7 +13,7 @@ subjects.
 <table style="width:80%">
 <tbody>
 <tr class="odd">
-<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><strong><a href="StructureDefinition-Immunization-uc1.html">Immunization</a></strong></p>
+<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><a href="StructureDefinition-Immunization-uc1.html"><strong>Immunization</strong></a></p>
 <p><strong>(for registry population)</strong></p></td>
 <td></td>
 <td><p>This model uses the following specialized models:</p>
@@ -42,7 +42,7 @@ other system.
 <table style="width:80%">
 <tbody>
 <tr class="odd">
-<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><strong>Immunization</strong></p>
+<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><a href="StructureDefinition-Immunization-uc2.html"><strong>Immunization</strong></a></p>
 <p><strong>(for event recording)</strong></p></td>
 <td></td>
 <td><p>This model uses the following specialized models:</p>
@@ -69,7 +69,7 @@ product or its administration to the subject.
 <table style="width:80%">
 <tbody>
 <tr class="odd">
-<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><strong>Immunization</strong></p>
+<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><a href="StructureDefinition-Immunization-uc3.html"><strong>Immunization</strong></a></p>
 <p><strong>(for historic event)</strong></p></td>
 <td></td>
 <td><p>This model uses the following specialized models:</p>
@@ -96,7 +96,7 @@ immunization events over time that pertain to a subject.
 <table style="width:80%">
 <tbody>
 <tr class="odd">
-<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><strong>Immunization</strong></p>
+<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><a href="StructureDefinition-Immunization-uc4.html"><strong>Immunization</strong></a></p>
 <p><strong>(for immunization history)</strong></p></td>
 <td></td>
 <td><p>This model uses the following specialized models:</p>
@@ -122,7 +122,7 @@ an Immunization Registry or other system.
 <table style="width:80%">
 <tbody>
 <tr class="odd">
-<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><strong>Immunization</strong></p>
+<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><a href="StructureDefinition-Immunization-uc5.html"><strong>Immunization</strong></a></p>
 <p><strong>(for immunization reminder)</strong></p></td>
 <td></td>
 <td><p>This model uses the following specialized models:</p>
@@ -149,7 +149,7 @@ location or country.
 <table style="width:80%">
 <tbody>
 <tr class="odd">
-<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><strong>Immunization</strong></p>
+<td style="background-color:powderblue;vertical-align: middle;width:30%"><p><a href="StructureDefinition-Immunization-uc6.html"><strong>Immunization</strong></a></p>
 <p><strong>(for anonymized reports)</strong></p></td>
 <td></td>
 <td><p>This model uses the following specialized models:</p>
