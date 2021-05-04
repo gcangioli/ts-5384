@@ -46,7 +46,42 @@
     "type": "StructureDefinition",
     "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc1",
     "version": "0.0.1",
-    "name": "ImmunizationUc1"
+    "name": "ImmunizationUcRegistry"
+  },
+  {
+    "id": "Immunization-uc2",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc2",
+    "version": "0.0.1",
+    "name": "ImmunizationUcCurrentEvent"
+  },
+  {
+    "id": "Immunization-uc3",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc3",
+    "version": "0.0.1",
+    "name": "ImmunizationUcHistoricEvent"
+  },
+  {
+    "id": "Immunization-uc4",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc4",
+    "version": "0.0.1",
+    "name": "ImmunizationUcHistory"
+  },
+  {
+    "id": "Immunization-uc5",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc5",
+    "version": "0.0.1",
+    "name": "ImmunizationUcReminder"
+  },
+  {
+    "id": "Immunization-uc6",
+    "type": "StructureDefinition",
+    "url": "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc6",
+    "version": "0.0.1",
+    "name": "ImmunizationUcAnonymized"
   },
   {
     "id": "Product",

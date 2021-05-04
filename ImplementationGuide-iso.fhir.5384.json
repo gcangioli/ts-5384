@@ -11,7 +11,7 @@
   "title": "ISO TS 5384 Immunization FHIR Logical Models",
   "status": "draft",
   "experimental": true,
-  "date": "2021-04-22T20:24:18+00:00",
+  "date": "2021-05-04T07:17:50+00:00",
   "publisher": "ISO",
   "contact": [
     {
@@ -365,8 +365,8 @@
         "reference": {
           "reference": "StructureDefinition/Immunization-uc1"
         },
-        "name": "UC1: Registry Use Case",
-        "description": "Data Model for the 'Populate an Immunization Registry'"
+        "name": "UC1: Populate an Immunization Registry",
+        "description": "Data Model for the 'Populate an Immunization Registry ' use case"
       },
       {
         "extension": [
@@ -393,6 +393,32 @@
         },
         "name": "Immunization Forecast - Registry Use Case",
         "description": "Data Model for the 'Populate an Immunization Registry'"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Immunization-uc5"
+        },
+        "name": "UC5: Create Client immunization reminder",
+        "description": "Data Model for the 'Create Client immunization reminder'"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Immunization-uc2"
+        },
+        "name": "UC2: Record a Current immunization event",
+        "description": "Data Model for the 'Record a Current immunization event'"
       },
       {
         "extension": [
@@ -454,10 +480,49 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/Immunization-uc6"
+        },
+        "name": "UC6: Create anonymized immunization reports",
+        "description": "Data Model for the 'Create anonymized immunization reports'"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Immunization-uc3"
+        },
+        "name": "UC3: Record a Historic immunization event",
+        "description": "Data Model for the 'Record a Historic immunization event'"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/SimpleOrganization"
         },
         "name": "Simple Organization",
         "description": "Simple Organization"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:logical"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Immunization-uc4"
+        },
+        "name": "UC4: Create Client Immunization history",
+        "description": "Data Model for the 'Create Client Immunization history'"
       }
     ],
     "page": {

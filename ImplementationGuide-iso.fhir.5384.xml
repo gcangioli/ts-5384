@@ -12,7 +12,7 @@
   <title value="ISO TS 5384 Immunization FHIR Logical Models"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-04-22T20:24:18+00:00"/>
+  <date value="2021-05-04T07:17:50+00:00"/>
   <publisher value="ISO"/>
   <contact>
     <telecom>
@@ -238,8 +238,8 @@
       <reference>
         <reference value="StructureDefinition/Immunization-uc1"/>
       </reference>
-      <name value="UC1: Registry Use Case"/>
-      <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
+      <name value="UC1: Populate an Immunization Registry"/>
+      <description value="Data Model for the &#39;Populate an Immunization Registry &#39; use case"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -260,6 +260,26 @@
       </reference>
       <name value="Immunization Forecast - Registry Use Case"/>
       <description value="Data Model for the &#39;Populate an Immunization Registry&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Immunization-uc5"/>
+      </reference>
+      <name value="UC5: Create Client immunization reminder"/>
+      <description value="Data Model for the &#39;Create Client immunization reminder&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Immunization-uc2"/>
+      </reference>
+      <name value="UC2: Record a Current immunization event"/>
+      <description value="Data Model for the &#39;Record a Current immunization event&#39;"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -306,10 +326,40 @@
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/Immunization-uc6"/>
+      </reference>
+      <name value="UC6: Create anonymized immunization reports"/>
+      <description value="Data Model for the &#39;Create anonymized immunization reports&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Immunization-uc3"/>
+      </reference>
+      <name value="UC3: Record a Historic immunization event"/>
+      <description value="Data Model for the &#39;Record a Historic immunization event&#39;"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/SimpleOrganization"/>
       </reference>
       <name value="Simple Organization"/>
       <description value="Simple Organization"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Immunization-uc4"/>
+      </reference>
+      <name value="UC4: Create Client Immunization history"/>
+      <description value="Data Model for the &#39;Create Client Immunization history&#39;"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

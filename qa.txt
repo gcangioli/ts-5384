@@ -2,8 +2,8 @@
 =========================================
 
 err = 0, warn = 12, info = 0
-IG Publisher Version: 1.1.67
-Generated Thu Apr 22 20:24:34 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
+IG Publisher Version: 1.1.68
+Generated Tue May 04 07:18:12 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0.1 (canonical = http://iso.org/fhir/ts-5384)
 
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/StructureDefinition-Forecast : 0 / 0 / 1
@@ -11,6 +11,11 @@ Generated Thu Apr 22 20:24:34 UTC 2021. FHIR version 4.0.1 for iso.fhir.5384#0.0
  /github/workspace/fsh-generated/resources/StructureDefinition-HealthProfessional : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Immunization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc1 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc2 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc3 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc4 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc5 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc6 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Product : 0 / 6 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-Product-uc1 : 0 / 6 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-SimpleOrganization : 0 / 0 / 1
@@ -31,6 +36,16 @@ INFORMATION: StructureDefinition/HealthProfessional: StructureDefinition/HealthP
 INFORMATION: StructureDefinition/Immunization: StructureDefinition/Immunization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc1.json ==
 INFORMATION: StructureDefinition/Immunization-uc1: StructureDefinition/Immunization-uc1: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc2.json ==
+INFORMATION: StructureDefinition/Immunization-uc2: StructureDefinition/Immunization-uc2: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc3.json ==
+INFORMATION: StructureDefinition/Immunization-uc3: StructureDefinition/Immunization-uc3: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc4.json ==
+INFORMATION: StructureDefinition/Immunization-uc4: StructureDefinition/Immunization-uc4: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc5.json ==
+INFORMATION: StructureDefinition/Immunization-uc5: StructureDefinition/Immunization-uc5: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /github/workspace/fsh-generated/resources/StructureDefinition-Immunization-uc6.json ==
+INFORMATION: StructureDefinition/Immunization-uc6: StructureDefinition/Immunization-uc6: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 == /github/workspace/fsh-generated/resources/StructureDefinition-Product.json ==
 INFORMATION: StructureDefinition/Product: StructureDefinition/Product: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Product: StructureDefinition/Product: StructureDefinition.snapshot.element[5]: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' failed
