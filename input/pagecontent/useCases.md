@@ -49,7 +49,7 @@ other system.
 <ul>
 <li><p>Subject of Care (for event recording)</p></li>
 <li><p>Immunization Forecast (for event recording)</p></li>
-<li><p>Product (for event recording)</p></li>
+<li><p><a href="StructureDefinition-Product-uc2.html">Product (for event recording)</a></p></li>
 </ul></td>
 </tr>
 </tbody>

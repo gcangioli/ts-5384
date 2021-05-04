@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "Data Model for the 'Populate an Immunization Registry'"
 Title: "Immunization Forecast - Registry Use Case"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Forecast-uc1"
@@ -19,10 +18,16 @@ Usage: #definition
 * baseDefinition = "http://iso.org/fhir/ts-5384/StructureDefinition/Forecast"
 * derivation = #constraint
 
+
+
+
+
+
 * differential.element[0].id = "Forecast.status"
 * differential.element[0].path = "Forecast.status"
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
+
 * differential.element[0].mustSupport = true
 * differential.element[1].id = "Forecast.description"
 * differential.element[1].path = "Forecast.description"
@@ -54,3 +59,23 @@ Usage: #definition
 * differential.element[4].max = "1"
 
 * differential.element[4].mustSupport = true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "Data Model for the 'Record a Current immunization event'"
 Title: "UC2: Record a Current immunization event"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc2"
@@ -13,18 +12,11 @@ Usage: #definition
 * experimental = true
 * description = "Data Model for the 'Record a Current immunization event'"
 * version = "0.0.1"
-
-
-
-
-
 * kind = #logical
 * abstract = false
 * type = "Immunization"
 * baseDefinition = "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization"
 * derivation = #constraint
-
-
 
 
 
@@ -85,9 +77,9 @@ Usage: #definition
 * differential.element[3].path = "Immunization.product"
 * differential.element[3].min = 1
 * differential.element[3].max = "*"
-* differential.element[3].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc1
+* differential.element[3].type.code = #http://iso.org/fhir/ts-5384/StructureDefinition/Product-uc2
 * differential.element[3].mustSupport = true
-* differential.element[3].short = "[R] Medicinal Immunizing Product"
+* differential.element[3].short = "[M] Medicinal Immunizing Product"
 * differential.element[4].id = "Immunization.administration"
 * differential.element[4].path = "Immunization.administration"
 * differential.element[4].min = 1
@@ -221,3 +213,65 @@ Usage: #definition
 
 
 * differential.element[19].short = "[NR] Subject's immunization forecast"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

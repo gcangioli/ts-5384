@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."
 Title: "Product"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Product"
@@ -18,14 +17,12 @@ Usage: #definition
 * type = "Product"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
-
 * differential.element[0].id = "Product"
 * differential.element[0].path = "Product"
 * differential.element[0].short = "Product"
 * differential.element[0].definition = "A product  that have or should have been administered to a subject that includes one or more specific antigen(s) aimed at developing an immune response in an individual to provide protection from a vaccine preventable disease(s)."
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
-
 * differential.element[1].id = "Product.codeSet"
 * differential.element[1].path = "Product.codeSet"
 * differential.element[1].short = "Set of product codes"

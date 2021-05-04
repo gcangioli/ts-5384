@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "Subject vaccinated"
 Title: "Subject of Care"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Subject"
@@ -13,24 +12,20 @@ Usage: #definition
 * experimental = true
 * description = "Subject vaccinated"
 * version = "0.0.1"
-
 * mapping[0].identity = "fhir"
 * mapping[0].uri = "hl7.org/fhir/r4"
 * mapping[0].name = "FHIR"
-
 * kind = #logical
 * abstract = true
 * type = "Subject"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
-
 * differential.element[0].id = "Subject"
 * differential.element[0].path = "Subject"
 * differential.element[0].short = "Subject of care"
 * differential.element[0].definition = "Subject of care"
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
-
 * differential.element[1].id = "Subject.identifier"
 * differential.element[1].path = "Subject.identifier"
 * differential.element[1].short = "Person Identifier"
@@ -93,7 +88,7 @@ This should not be confused with citizenship or nationality."
 * differential.element[9].path = "Subject.sex"
 * differential.element[9].short = "Recorded Sex"
 * differential.element[9].definition = "Documentation of a specific instance of sex information. 
-Not to be confused with the client’s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else."
+Not to be confused with the client?s gender identity (if present) which is an individual's personal sense of being a man, woman, boy, girl, or something else."
 * differential.element[9].min = 0
 * differential.element[9].max = "1"
 * differential.element[9].type.code = #CodeableConcept

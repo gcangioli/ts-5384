@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "Health Professional"
 Title: "Health Professional"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/HealthProfessional"
@@ -18,14 +17,12 @@ Usage: #definition
 * type = "HealthProfessional"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
-
 * differential.element[0].id = "HealthProfessional"
 * differential.element[0].path = "HealthProfessional"
 * differential.element[0].short = "Health Professional"
 * differential.element[0].definition = "Health Professional"
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
-
 * differential.element[1].id = "HealthProfessional.identifier"
 * differential.element[1].path = "HealthProfessional.identifier"
 * differential.element[1].short = "ID"

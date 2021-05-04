@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "Data Model for the 'Create anonymized immunization reports'"
 Title: "UC6: Create anonymized immunization reports"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization-uc6"
@@ -13,18 +12,11 @@ Usage: #definition
 * experimental = true
 * description = "Data Model for the 'Create anonymized immunization reports'"
 * version = "0.0.1"
-
-
-
-
-
 * kind = #logical
 * abstract = false
 * type = "Immunization"
 * baseDefinition = "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization"
 * derivation = #constraint
-
-
 
 
 
@@ -221,3 +213,65 @@ Usage: #definition
 
 
 * differential.element[18].short = "[NR] Subject's immunization forecast"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

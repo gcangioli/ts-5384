@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "Simple Organization"
 Title: "Simple Organization"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/SimpleOrganization"
@@ -18,14 +17,12 @@ Usage: #definition
 * type = "SimpleOrganization"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
-
 * differential.element[0].id = "SimpleOrganization"
 * differential.element[0].path = "SimpleOrganization"
 * differential.element[0].short = "Organization"
 * differential.element[0].definition = "Organization"
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
-
 * differential.element[1].id = "SimpleOrganization.identifier"
 * differential.element[1].path = "SimpleOrganization.identifier"
 * differential.element[1].short = "ID"

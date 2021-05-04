@@ -3,7 +3,6 @@ InstanceOf: StructureDefinition
 Description: "ISO TS 5384 data model"
 Title: "Immunization Forecast"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Forecast"
@@ -13,24 +12,20 @@ Usage: #definition
 * experimental = true
 * description = "ISO TS 5384 data model"
 * version = "0.0.1"
-
 * mapping[0].identity = "fhir"
 * mapping[0].uri = "hl7.org/fhir/r4"
 * mapping[0].name = "FHIR"
-
 * kind = #logical
 * abstract = false
 * type = "Forecast"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
-
 * differential.element[0].id = "Forecast"
 * differential.element[0].path = "Forecast"
 * differential.element[0].short = "Subject's immunization forecast"
 * differential.element[0].definition = "Subject's immunization forecast"
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
-
 * differential.element[1].id = "Forecast.creationDate"
 * differential.element[1].path = "Forecast.creationDate"
 * differential.element[1].short = "Immunization Forecast Status Generated Date"
@@ -86,30 +81,3 @@ This data element must align and be used with the Immunization Forecast Date Typ
 * differential.element[7].min = 0
 * differential.element[7].max = "1"
 * differential.element[7].type.code = #dateTime
-
-
-// MAPPING
-
-* differential.element[1].mapping[0].identity = "fhir"
-* differential.element[1].mapping[0].map = "ImmunizationRecommendation.date"
-* differential.element[1].mapping[0].comment = "note"
-* differential.element[2].mapping[0].identity = "fhir"
-* differential.element[2].mapping[0].map = "ImmunizationRecommendation.recommendation.forecastStatus"
-
-* differential.element[3].mapping[0].identity = "fhir"
-* differential.element[3].mapping[0].map = "ImmunizationRecommendation.description"
-
-* differential.element[4].mapping[0].identity = "fhir"
-* differential.element[4].mapping[0].map = "ImmunizationRecommendation.supportingPatientInformation"
-
-* differential.element[4].mapping[1].identity = "fhir"
-* differential.element[4].mapping[1].map = "ImmunizationRecommendation.supportingImmunization"
-
-* differential.element[5].mapping[0].identity = "fhir"
-* differential.element[5].mapping[0].map = "ImmunizationRecommendation.recommendation.dateCriterion"
-
-* differential.element[6].mapping[0].identity = "fhir"
-* differential.element[6].mapping[0].map = "ImmunizationRecommendation.recommendation.dateCriterion.code"
-
-* differential.element[7].mapping[0].identity = "fhir"
-* differential.element[7].mapping[0].map = "ImmunizationRecommendation.recommendation.dateCriterion.value"

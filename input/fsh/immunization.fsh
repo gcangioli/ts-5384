@@ -1,36 +1,31 @@
 Instance: Immunization
 InstanceOf: StructureDefinition
 Description: "ISO TS 5384 data model"
-Title: "ISO TS 5384 data model (general)"
+Title: "Immunization"
 Usage: #definition
-
 * publisher = "ISO/TC 521 WG3"
 * status = #draft
 * url = "http://iso.org/fhir/ts-5384/StructureDefinition/Immunization"
 * name = "Immunization"
-* title = "ISO TS 5384 data model (general)"
+* title = "Immunization"
 * status = #draft
 * experimental = true
 * description = "ISO TS 5384 data model"
 * version = "0.0.1"
-
 * mapping[0].identity = "fhir"
 * mapping[0].uri = "hl7.org/fhir/r4"
 * mapping[0].name = "FHIR"
-
 * kind = #logical
 * abstract = true
 * type = "Immunization"
 * baseDefinition = "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
-
 * differential.element[0].id = "Immunization"
 * differential.element[0].path = "Immunization"
 * differential.element[0].short = "Immunization"
 * differential.element[0].definition = "Immunization"
 * differential.element[0].min = 1
 * differential.element[0].max = "1"
-
 * differential.element[1].id = "Immunization.recorded"
 * differential.element[1].path = "Immunization.recorded"
 * differential.element[1].short = "Recorded Date"
